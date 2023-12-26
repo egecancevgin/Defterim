@@ -1,9 +1,12 @@
-Egecan Çelik Evgin
+# Egecan Çelik Evgin
 
-Toplam Çalışma Saati:               372 Saat
-Uzmanlık Seviyesine Giden Yol:      %3.72
 
-Nizami Çalışma Kaydı:
+## Toplam Çalışma Saati:               372 Saat
+
+## Uzmanlık Seviyesine Giden Yol:      %3.72
+ 
+
+## Nizami Çalışma Kaydı:
     6 Eylül 2023 Çarşamba:     30 dakika
     7 Eylül 2023 Perşembe:     30 dakika
     8 Eylül 2023 Cuma:         1 saat
@@ -88,7 +91,7 @@ Nizami Çalışma Kaydı:
     24 Aralık 2023 Pazar:      1 saat 
     25 Aralık 2023 Pazartesi:  5 saat 
 
-Beceriler:
+## Beceriler:
     Yazılım Geliştirme
     Yazılım Mühendisliği
     Programlama
@@ -103,12 +106,12 @@ Beceriler:
     Bulut Bilişimi
     Dağıtık Sistemler
 
-Teknik Araçlar:
+## Teknik Araçlar:
     C#, ASP.NET Core MVC, Microsoft SQL Server, HTML, CSS, XML, JavaScript, AJAX, jQuery, React, Xunit, Postman, WPF, WCF,
     UML, LINQ, XAML, Angular, Git, Docker, Jenkins, Azure DevOps, TFS/JIRA, JSON, SoapUI, T-SQL, Python, CUDA,
     MongoDB, Redis, PostgreSQL, ELK Stack, Bash, Apache Kafka
 
-Eğer TT'ye gireresem: 
+## Eğer TT'ye gireresem: 
     Programming with Python, Golang and C++.
     Object Oriented Design and documentation using UML.
     Database Management with PostgreSQL, Apache Cassandra and MongoDB.
@@ -124,7 +127,7 @@ Eğer TT'ye gireresem:
     Version Controlling and GitOps using Git and ArgoCD.
     MLOps applications using Mlflow and Roboflow.
 
-Yazılım Mühendisliği Kesin Toollar:
+## Yazılım Mühendisliği Kesin Toollar:
     JavaScript
     HTML
     CSS
@@ -142,10 +145,10 @@ Yazılım Mühendisliği Kesin Toollar:
     Docker
     Bash 
 
-TT Full Stack Developer Toolları:
+## TT Full Stack Developer Toolları:
     Golang, JavaScript, Gin, HTML, CSS, jQuery, Node.js, React, Angular, NestJS, MongoDB, Git, PostgreSQL, Docker, Bash 
 
-Hedef Projeler:
+## Hedef Projeler:
     E-Ticaret Elektronik Ürünler Öneri Sistemi
     Banka İşlemleri Sahtekarlık Tespiti
     Deployment Anomali Tespiti 
@@ -159,7 +162,7 @@ Hedef Projeler:
     CUDA ile Multiprocessing
 
 
-Mevcut Okul Derslerimin Soruları (Sonra ele alınacak):
+## Mevcut Okul Derslerimin Soruları (Sonra ele alınacak):
     1- Yazılım Testi nedir, kaça ayrılır? 
 
     2- Büyük Dil Modelleri nedir, popüler örnekleri nelerdir?
@@ -347,16 +350,16 @@ Mevcut Okul Derslerimin Soruları (Sonra ele alınacak):
 
 
 
-Sözel Mülakat Soruları:
-    1- Yazılım Geliştirme Yaşam Döngüsü hangi aşamalardan oluşur ve bu aşamalarda neler yapılır?
-        Planlama: Müşteri gereksinimleri, ihtiyaç analizi ve proje kapsamı bu aşamada yer alır.
-        Tasarım: İhtiyaç analizi sonuçlarına dayanarak sistem tasarlanır, dokümentasyon hazırlanır.
-        Geliştirme: Kodlama aşamasıdır, yazılımın gerçekten oluştuğu yerdir, tasarım baz alınarak yazılım geliştirilir.
-        Test: Yazılımın doğru çalıştığını ve gereksinimleri karşıladığını doğrulama testleri yapılır, hatalar giderilir.
-        Dağıtım: Entegrasyon yapılır, yazılım hedef sistemlere yüklenir, müşteri kullanımına açılır.
-        Bakım: Yazılım kullanıldıkça oluşan hatalar düzeltilir, performans izleme ve müşteri destek hizmetleri sağlanır.
+# Sözel Mülakat Soruları:
+## 1- Yazılım Geliştirme Yaşam Döngüsü hangi aşamalardan oluşur ve bu aşamalarda neler yapılır?
+   Planlama: Müşteri gereksinimleri, ihtiyaç analizi ve proje kapsamı bu aşamada yer alır.
+   Tasarım: İhtiyaç analizi sonuçlarına dayanarak sistem tasarlanır, dokümentasyon hazırlanır.
+   Geliştirme: Kodlama aşamasıdır, yazılımın gerçekten oluştuğu yerdir, tasarım baz alınarak yazılım geliştirilir.
+   Test: Yazılımın doğru çalıştığını ve gereksinimleri karşıladığını doğrulama testleri yapılır, hatalar giderilir.
+   Dağıtım: Entegrasyon yapılır, yazılım hedef sistemlere yüklenir, müşteri kullanımına açılır.
+   Bakım: Yazılım kullanıldıkça oluşan hatalar düzeltilir, performans izleme ve müşteri destek hizmetleri sağlanır.
     
-    2- Nesne tabanlı programlamada Arayüz nedir ve nasıl uygulanır?
+## 2- Nesne tabanlı programlamada Arayüz nedir ve nasıl uygulanır?
         Arayüzler bir sınıfa belirli işlevleri kazandırmak için kullanılır, birden fazla arayüzden miras alınabilir.
         Bir sınıf, bir arayüzden miras aldığında, o arayüzde tanımlanan tüm yöntemleri uygulamak zorundadır.
         Arayüzler yalnızca metot imzalarını içerirler, soyut sınıflarda ise gövdeler de bulunabilir.
@@ -367,7 +370,7 @@ Sözel Mülakat Soruları:
                 void MoneyTransfer();
             }
     
-    3- İşletim sistemlerinde `TCP` ve `UDP` kavramları nelerdir, aralarındaki farklar nelerdir ve nerelerde kullanılırlar?
+## 3- İşletim sistemlerinde `TCP` ve `UDP` kavramları nelerdir, aralarındaki farklar nelerdir ve nerelerde kullanılırlar?
         Transmission Control ve User Datagram Protocol, bilgisayar ağlarında veri iletişimini sağlayan iletişim protokolüdür.
         TCP güvenlilirdir ve bağlantı odaklıdır, veri paketleri sıralı bir şekilde iletilir, UDP'de yoktur, daha hızlıdır.
         3-way ve 4-way handshake'lerle bağlantı başlatma ve bağlantı sonlandırma yapılır, UDP'de veriler kaybolabilir.
@@ -376,7 +379,7 @@ Sözel Mülakat Soruları:
         TCP, web sayfalarına erişim, dosya aktarımı, mail aktarımı gibi alanlarda kullanılır.
         UDP, çevrimiçi oyunlar, video konferansları, internet üzerinden sesli aramalar gibi alanlarda kullanılır. 
 
-    4- Nesne tabanlı programlamada SOLID prensipleri nelerdir, neden uygulanırlar?
+## 4- Nesne tabanlı programlamada SOLID prensipleri nelerdir, neden uygulanırlar?
         SOLID prensipleri, nesne tabanlı programlamada yazılım tasarımını daha sürdürülebilir ve bakımı kolay hale getirir.
         Single Responsibility, bir sınıfın veya modülün yalnızca bir sorumluluğunun olması gerektiğini belirtir.
         Open-Closed, yazılımın geliştirilebilir olmasını ancak var olan sınıfların kodunun değiştirilmeden yapılmasını belirtir.
@@ -384,7 +387,7 @@ Sözel Mülakat Soruları:
         Interface Segregation, genel arayüzler yerine daha özelleştirilmiş, spesifik ihtiyaçlar için arayüzler olmasını söyler.
         Dependency Inversion, yüksek seviyeli modüllerin, düşük seviyeli modüllere bağımlılıklarının olmaması gerektiğini söyler.
 
-    5- Nesne tabanlı programlamada soyut sınıflar ve soyut üyeler nelerdir ve benzerlerinden nasıl ayrışırlar?
+## 5- Nesne tabanlı programlamada soyut sınıflar ve soyut üyeler nelerdir ve benzerlerinden nasıl ayrışırlar?
         Soyut sınıflar, diğer sınıfların temelini oluşturan sınıflardır ve somut nesneler oluşturmak için kullanılamaz.
         Miras alan sınıflar için bir şablondur, soyut metotların gövdeleri yoktur ve bunlar miras alan sınıfta uygulanmalıdır.
         Bir soyut sınıfın içerisinde soyut-somut bir sürü metot bulunabilir, ayrıca bir arayüzden de miras alabilir.
@@ -398,7 +401,7 @@ Sözel Mülakat Soruları:
                 public abstract void ParaTransferi();
             }
 
-    6- Yazılım Mühendisliğinde Scrum nedir, hangi alt kavramlardan oluşur ve nasıl uygulanır?
+## 6- Yazılım Mühendisliğinde Scrum nedir, hangi alt kavramlardan oluşur ve nasıl uygulanır?
         Scrum, bir proje yönetimi çerçevesidir, esnek ve işbirlikçi bir yaklaşımı benimser.
         Temel amacı değişen gereksinimlere daha iyi adapte olmak ve müşteri odaklı çalışmaktır.
         Product Owner, Scrum Master ve Geliştirme Ekibinden oluşur, 2 haftalık `sprint`ler ile ürün parçacığı teslim edilir.
@@ -410,7 +413,7 @@ Sözel Mülakat Soruları:
         Efor, görevin tamamlanması için gereken tahmini çalışma süresidir, Velocity ise sprint boyunca tamamlanan efordur.
         Burn-Up Chart, sprintte tamamlanan iş miktarıdır, Hazır Tanımı da bir görevin ekip tarafından bakılmaya hazır olmasıdır.
     
-    7- Nesne Tabanlı Programlamada erişim belirteçleri nelerdir, ne işe yararlar ve dillere göre nasıl değişirler?
+## 7- Nesne Tabanlı Programlamada erişim belirteçleri nelerdir, ne işe yararlar ve dillere göre nasıl değişirler?
         Erişim belirteçleri, sınıf üyelerine ve sınıflara erişimi düzenler ve ilişkileri yönetir.
         Public, tüm erişim seviyelerinin en açık olanıdır, herkesin bu üyeye erişmesine izin verilir.
         Private, yalnızca aynı sınıf içerisinden erişime izin verir, diğer sınıflar ve kodlar bu üyelere erişemezler.
@@ -420,7 +423,7 @@ Sözel Mülakat Soruları:
         C# dilinde protected internal ve private protected da vardır, varsayılan olarak sınıflar internal, üyeler private'dır.
         Java'da default hem sınıflarda hem üyelerde varsayılan belirteçtir, C++ dilinde ise hem sınıflar hem üyeler private'dır.
     
-    8- Makine Öğrenimini üç ana aşamaya ayıracak olursak bu aşamalar neler olur ve bu aşamalarda neler yapılır?
+## 8- Makine Öğrenimini üç ana aşamaya ayıracak olursak bu aşamalar neler olur ve bu aşamalarda neler yapılır?
         Representation, verilerin temsil edildiği ve makine öğrenimi modelinin oluşturulup bu temsille öğrendiği aşamadır.
         Feature Engineering, boyut azaltma ve matematiksel algoritmaların seçimleri bu aşamada gerçekleştirilir.
         Evaluation, modelin performansının objektif bir şekilde uygun metriklerle ölçüldüğü aşamadır.
@@ -428,7 +431,7 @@ Sözel Mülakat Soruları:
         Optimization, modelin performansını iyileştirmek amacıyla bazı ayarların yapıldığı ve yeniden düzenlendiği aşamadır.
         Hiperparametre ayarı, overfitting-underfitting tespiti, aktivasyon fonksiyonları, regularization yapılabilir.
     
-    9- Binary Search algoritması nasıl çalışır, karmaşıklık seviyesi nedir, normal arama algoritmalarından farkı nedir?
+## 9- Binary Search algoritması nasıl çalışır, karmaşıklık seviyesi nedir, normal arama algoritmalarından farkı nedir?
         İkili arama algoritması, decrease and conquer tasarım paradigmasına uyan bir arama algoritmasıdır.
         Orijinalde sıralı olan bir dizi içerisinde belirli bir elemanı arar, diziyi her seferinde ikiye bölerek çalışır.
         Lineer arama algoritmasının karmaşıklığı en kötü durumda O(n) iken, ikili arama algoritması bunu O(logn)'e düşürür.
@@ -449,7 +452,7 @@ Sözel Mülakat Soruları:
                 return -1;
             }
     
-    10- Nesne tabanlı programlamada `Polimorfizm` kavramı nedir, nasıl uygulanır ve benzer kavramlardan nasıl ayrışır?
+## 10- Nesne tabanlı programlamada `Polimorfizm` kavramı nedir, nasıl uygulanır ve benzer kavramlardan nasıl ayrışır?
         Polimorfizm, farklı nesnelerin aynı şablonu kullanarak farklı şekillerde davranabilmesidir.
         Derleme zamanı ve koşu zamanı polimorfizmi olarak ikiye ayrılır.
         Derleme zamanı polimorfizmi aynı zamanda statik polimorfizm olarak da ifade edilir, overloading işlemidir.
@@ -463,7 +466,7 @@ Sözel Mülakat Soruları:
             ...
             public override AlanHesabı(int yarıçap) { ... }                       // Method overriding
     
-    11- SQL dilinde `JOIN` kavramı nedir, türleri nelerdir ve nasıl uygulanır?
+## 11- SQL dilinde `JOIN` kavramı nedir, türleri nelerdir ve nasıl uygulanır?
         JOIN, verileri birden fazla tablodan çekmeye ve tablolar arasındaki ilişkileri kullanarak birleştirmeye yarar.
         INNER JOIN, belirtilen iki tabloda eşleşen satırları getirir, yalnızca iki tablonun ortak satırlarını döndürür.
         LEFT JOIN, ilk yani sol tablodaki tüm satırları ve bu satırların eşleştiği sağ tablodaki satırları getirir, yoksa NULL.
@@ -481,7 +484,7 @@ Sözel Mülakat Soruları:
             SELECT Tablo1.Sutun1, Tablo2.Sutun2 FROM Tablo1 CROSS JOIN Tablo2;
             SELECT c1.Ad AS ClsnIsmi, c2.Isim AS YnticiIsmi FROM Calisanlar c1 LEFT JOIN Calisanlar c2 ON c1.YntID = c2.ClsID;
 
-    12- Makine Öğreniminde Lineer Regresyon ile Lojistik Regresyon algoritmaları nelerdir ve nasıl öğrenirler?
+## 12- Makine Öğreniminde Lineer Regresyon ile Lojistik Regresyon algoritmaları nelerdir ve nasıl öğrenirler?
             Lineer Regresyon, bir dizi noktaya en uygun düz çizgiyi bulmak için kullanılır, sürekli değerleri tahmin eder.
             Öğrenme denklemi: y' = b + w1x1 + w2x2 + ... + wnxn şeklindedir, b: bias, w: ağırlık, x: veri noktasıdır.
             Loss, bir modelin bir örnekteki tahmininin hatasıdır ve tamamen doğru bir tahmin için sıfır değerini alır.
@@ -502,7 +505,7 @@ Sözel Mülakat Soruları:
                 model.fit(X_train, y_train)
                 y_pred = model.predict(X_test)
     
-    13- Nesne tabanlı programlamada Inheritance, Encapsulation, Abstraction kavramları nedir ve nasıl ayrışırlar?
+## 13- Nesne tabanlı programlamada Inheritance, Encapsulation, Abstraction kavramları nedir ve nasıl ayrışırlar?
         Inheritance, bir sınıfın başka bir sınıftan özelliklerini ve davranışlarını devralmasını sağlar.
         Kodun DRY prensibine uymasını sağlar, Multiple, Multilevel, Hiyerarşik Inheritance türleri vardır.
         Multiple kalıtım birden fazla sınıftan miras almaktır, buna izin veren diller C++, Python, Kotlin, Ruby ve Rust'dır.
@@ -532,7 +535,7 @@ Sözel Mülakat Soruları:
             }
             ...
 
-    14- Bubble Sort algoritması nasıl çalışır, karmaşıklık seviyesi nedir, nasıl uygulanır?
+## 14- Bubble Sort algoritması nasıl çalışır, karmaşıklık seviyesi nedir, nasıl uygulanır?
         Bubble Sort, bir diziyi sıralamak için bitişik elemanları karşılaştırarak gerektiğinde yer değiştirir.
         İç döngüde bir tur, en büyük elemanı bulup onu listenin en sonuna koymaya yarar.
         Her dış döngü turundan itibaren dizi daha da sıralanır.
@@ -560,7 +563,7 @@ Sözel Mülakat Soruları:
                 }
             }
     
-    15- Yazılım Mühendisliğinde DevOps ve CI/CD kavramları nedir, aşamaları ve avantajları nelerdir?
+## 15- Yazılım Mühendisliğinde DevOps ve CI/CD kavramları nedir, aşamaları ve avantajları nelerdir?
         DevOps, yazılım geliştirme ve IT operasyonları arasındaki işbirliği arttıran hızlı ve güvenilir bir yaklaşımdır.
         Plan, Code, Build, Test, Release, Deploy, Operate, Monitor şeklinde 8 adımdan oluşur.
         Release aşamasında onaylanmış ve test edilmiş yazılımın bir sürümü hazırlanır ve versiyon numarası eklenir.
@@ -574,7 +577,7 @@ Sözel Mülakat Soruları:
         Sürekli Delivery, yazılımın canlıya teslim edilmesi için hazır olduğu ancak son bir onay bekleyen aşamadır.
         Sürekli Deployment aşamasında ise yazılım her değişiklik yapıldığında otomatik olarak canlı üretim ortamına dağıtılır.
     
-    16- T-SQL nedir, komutları kaça ayrılır ve ACID property'leri nelerdir?
+## 16- T-SQL nedir, komutları kaça ayrılır ve ACID property'leri nelerdir?
         Transact-SQL, Microsoft'un hazırladığı, Microsoft SQL Server'da kullanılan bir SQL türevidir.
         Transaction, SQL sorgularının ve komutlarının gruplandığı bir işlem birimidir.
         Bir transaction'un ya tamamı başarıyla gerçekleşir ya da hiçbir parçası gerçekleşmez.
@@ -596,7 +599,7 @@ Sözel Mülakat Soruları:
             WHERE HesapNumarası = 234523156;
             COMMIT TRANSACTION BankaUpdate;
 
-    17- Yazılım Mühendisliğinde versiyon kontrol sistemleri nedir, nasıl çalışır ve temel Git komutları nelerdir?
+## 17- Yazılım Mühendisliğinde versiyon kontrol sistemleri nedir, nasıl çalışır ve temel Git komutları nelerdir?
         Versiyon kontrol sistemleri, yazılım geliştirme süreçlerinde kaynak kodunun yönetilmesini sağlayan bir araçtır.
         Merkezi ve Dağıtık versiyon kontrol sistemleri olarak iki ana kategoriye ayrılır.
         Merkesi VCS, merkezi bir sunucu üzerinde barındırılan bir repository kullanır, ör: Subversion.
@@ -624,7 +627,7 @@ Sözel Mülakat Soruları:
             git rebase: Mevcut branch'teki commit geçmişini, belirtilen <base> branch veya commit üzerine uygular.
             git switch: Belirli bir branch'i seçmek veya başka bir branch arasında geçiş yapmak için kullanılır.
 
-    18- Linux nedir, UNIX ile arasındaki fark nedir, mimarisinde neler vardır?
+## 18- Linux nedir, UNIX ile arasındaki fark nedir, mimarisinde neler vardır?
         Linux, özgür yazılım topluluğu tarafından geliştirilen açık kaynaklı bir işletim sistemi çekirdeğidir.
         GNU General Public License altında dağıtılır, örnek dağıtımları arasında Ubuntu, CentOS, Debian ve Fedora bulunur.
         Unix, AT&T Bell laboratuvarlarında geliştirilen ticari bir işletim sistemidir, ör: AIX, Solaris, HP-UX.
@@ -649,7 +652,7 @@ Sözel Mülakat Soruları:
         /etc/passwd dosyası, kullanıcı adları, kullanıcı kimlikleri, giriş dizinleri ve varsayılan kabuk gibi bilgiler saklar.
         /etc/shadow dosyası, şifrelenmiş parolaları ve güvenlikle ilgili diğer bilgileri içerir, root tarafından erişilebilir.
 
-    19- Containerization nedir, Docker nasıl çalışır ve mimarisinde neler vardır?
+## 19- Containerization nedir, Docker nasıl çalışır ve mimarisinde neler vardır?
         Containerization, bir uygulama için gerekli olan tüm bağımlılıkları ve ortamı içeren izole paketler oluşturmaktır.
         Docker, uygulamaları, bağımlılıkları ve ortamı bir araya getirerek izole konteynerlar oluşturmayı sağlar.
         Bu konteynerler, Docker runtime üzerinde çalıştırılabilir ve birden çok ortamda tutarlı bir şekilde çalışabilir.
@@ -679,7 +682,7 @@ Sözel Mülakat Soruları:
             COPY ..
             CMD ["python", "app.py"]
 
-    20- NoSQL nedir, temel özellikleri nedir ve hangi DBMS'ler buna örnektir?
+## 20- NoSQL nedir, temel özellikleri nedir ve hangi DBMS'ler buna örnektir?
         Not Only SQL, ilişkisel olmayan büyük ve dağılmış veri setleri ile çalışmak üzere tasarlanmış veritabanı sistemleridir.
         Genellikler veritabanına veri eklerken veya çıkarırken bir şema tanımlamaya gerek yoktur.
         Veri seti büyüdükçe sistem performansını artırmak ve dağılmış ortamlarda çalışmak için yatay ölçeklenebilirlik sağlar.
@@ -706,7 +709,7 @@ Sözel Mülakat Soruları:
             db.mycollection.aggregate([{ $group: { _id: "$city", count: { $sum: 1 } } }])
             db.stats()
 
-    21- Yazılım Mühendisliğinde Mikroservisler, SOA, Monolitik Uygulamalar nelerdir ve benzer kavramlardan nasıl ayrışırlar?
+## 21- Yazılım Mühendisliğinde Mikroservisler, SOA, Monolitik Uygulamalar nelerdir ve benzer kavramlardan nasıl ayrışırlar?
         Monolitik uygulama, tek bir büyük bütünleşik kod tabanına sahip olan geleneksel bir uygulama mimarisidir.
             Geliştirme, dağıtım ve ölçeklendirme genellikle bir birim halinde yapılır.
             Büyüdükçe, geliştirme ve bakım zorlaşabilir, tek bir hata tüm uygulamayı etkileyebilir.
@@ -724,7 +727,7 @@ Sözel Mülakat Soruları:
         Serverless Mimari, altyapının yönetimini geliştiriciden uzaklaştıran ve sadece işlevselliğe odakladığı yaklaşımdır.
         Event-Driven mimari, olayların gerçekleşmesine dayalı olarak sistemlerin tepki verdiği bir yaklaşımdır.
 
-    22- Kuyruk, yığın ve bağlı liste veri yapıları arasındaki farklar nelerdir?
+## 22- Kuyruk, yığın ve bağlı liste veri yapıları arasındaki farklar nelerdir?
         Kuyruk, FIFO prensibine dayanır, `Breadth First Search` içerisinde kullanılabilir, yani seviye seviye aramadır.
         Basit, dairesel, öncelikli kuyruk gibi türleri, `Enqueue()-Dequeue()-Front()-Rear()-IsFull()` gibi metotları vardır. 
         Yığın, LIFO prensibine dayanır, `Depth First Search` içerisinde kullanılabilir, yani bir yol seç bitene kadar devam.
@@ -748,7 +751,7 @@ Sözel Mülakat Soruları:
                 }
             }
 
-    23- T-SQL'de şart blokları, döngüler, trigger ve indeksler nelerdir, nasıl uygulanırlar?
+## 23- T-SQL'de şart blokları, döngüler, trigger ve indeksler nelerdir, nasıl uygulanırlar?
         Şart blokları, belirli bir koşulu kontrol etmek için kullanılır ör: `IF`, `CASE-WHEN` ve `IIF`.
         `IF` sadece işlemler içerisinde kullanılırken, `CASE-WHEN` sorgu içinde, IIF de sorgularda tek koşulla çalışır.
         Döngüler, bir işlemin birden fazla çalışmasını sağlar, `WHILE`-`GO` komutları kullanılır.
@@ -795,7 +798,7 @@ Sözel Mülakat Soruları:
             (NAMESURNAME)
             ...
     
-    24- HTML nedir, temel kavramları ve bileşenleri nelerdir?
+## 24- HTML nedir, temel kavramları ve bileşenleri nelerdir?
         HyperText Markup Language, web sayfalarının yapısal içeriğini tanımlayan bir işaretleme dilidir. 
         Etiketler ve bunların içerisinde attribute'lar bulunur, etiketler genellikle <tag> ... </tag> şeklinde kullanılır.
         <!DOCTYPE HTML>, bir HTML belgesinin hangi sürümünü ve standartlarını kullanacağını belirten doküman türü tanımıdır.
