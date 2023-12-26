@@ -351,56 +351,99 @@
 
 
 # Sözel Mülakat Soruları:
+<br></br>
+
 ## 1- Yazılım Geliştirme Yaşam Döngüsü hangi aşamalardan oluşur ve bu aşamalarda neler yapılır?
-   Planlama: Müşteri gereksinimleri, ihtiyaç analizi ve proje kapsamı bu aşamada yer alır.
-   Tasarım: İhtiyaç analizi sonuçlarına dayanarak sistem tasarlanır, dokümentasyon hazırlanır.
-   Geliştirme: Kodlama aşamasıdır, yazılımın gerçekten oluştuğu yerdir, tasarım baz alınarak yazılım geliştirilir.
-   Test: Yazılımın doğru çalıştığını ve gereksinimleri karşıladığını doğrulama testleri yapılır, hatalar giderilir.
-   Dağıtım: Entegrasyon yapılır, yazılım hedef sistemlere yüklenir, müşteri kullanımına açılır.
-   Bakım: Yazılım kullanıldıkça oluşan hatalar düzeltilir, performans izleme ve müşteri destek hizmetleri sağlanır.
-    
+
+ - Planlama: Müşteri gereksinimleri, ihtiyaç analizi ve proje kapsamı bu aşamada yer alır.
+   
+ - Tasarım: İhtiyaç analizi sonuçlarına dayanarak sistem tasarlanır, dokümentasyon hazırlanır.
+   
+ - Geliştirme: Kodlama aşamasıdır, yazılımın gerçekten oluştuğu yerdir, tasarım baz alınarak yazılım geliştirilir.
+   
+ - Test: Yazılımın doğru çalıştığını ve gereksinimleri karşıladığını doğrulama testleri yapılır, hatalar giderilir.
+   
+ - Dağıtım: Entegrasyon yapılır, yazılım hedef sistemlere yüklenir, müşteri kullanımına açılır.
+   
+ - Bakım: Yazılım kullanıldıkça oluşan hatalar düzeltilir, performans izleme ve müşteri destek hizmetleri sağlanır.
+
+<br></br>
 ## 2- Nesne tabanlı programlamada Arayüz nedir ve nasıl uygulanır?
-        Arayüzler bir sınıfa belirli işlevleri kazandırmak için kullanılır, birden fazla arayüzden miras alınabilir.
-        Bir sınıf, bir arayüzden miras aldığında, o arayüzde tanımlanan tüm yöntemleri uygulamak zorundadır.
-        Arayüzler yalnızca metot imzalarını içerirler, soyut sınıflarda ise gövdeler de bulunabilir.
-        Sadece `public` veya `internal` erişimlerini alabilirler, metotları ise varsayılan olarak public'tir.
-        Örnek Tanım:
-            public interface IBank
-            {
-                void MoneyTransfer();
-            }
-    
+
+   - Arayüzler bir sınıfa belirli işlevleri kazandırmak için kullanılır, birden fazla arayüzden miras alınabilir.
+   
+   - Bir sınıf, bir arayüzden miras aldığında, o arayüzde tanımlanan tüm yöntemleri uygulamak zorundadır.
+   
+   - Arayüzler yalnızca metot imzalarını içerirler, soyut sınıflarda ise gövdeler de bulunabilir.
+   
+   - Sadece `public` veya `internal` erişimlerini alabilirler, metotları ise varsayılan olarak public'tir.
+   
+   Örnek Tanım:
+   ``` cs
+   public interface IBank
+   {
+        void MoneyTransfer();
+   }
+   ```
+
+<br></br>
 ## 3- İşletim sistemlerinde `TCP` ve `UDP` kavramları nelerdir, aralarındaki farklar nelerdir ve nerelerde kullanılırlar?
-        Transmission Control ve User Datagram Protocol, bilgisayar ağlarında veri iletişimini sağlayan iletişim protokolüdür.
-        TCP güvenlilirdir ve bağlantı odaklıdır, veri paketleri sıralı bir şekilde iletilir, UDP'de yoktur, daha hızlıdır.
-        3-way ve 4-way handshake'lerle bağlantı başlatma ve bağlantı sonlandırma yapılır, UDP'de veriler kaybolabilir.
-        Başlangıçta istemci sunucuya SYN gönderir, sunucu kabul eder ve SYN-ACK yanıtı verir, istemci bunu alır ve ACK gönderir.
-        Sonlandırırken de istemci FIN paketi gönderir, sunucu ACK yanıtlar, sonra FIN gönderir, istemci de ACK yanıtı gönderir.
-        TCP, web sayfalarına erişim, dosya aktarımı, mail aktarımı gibi alanlarda kullanılır.
-        UDP, çevrimiçi oyunlar, video konferansları, internet üzerinden sesli aramalar gibi alanlarda kullanılır. 
 
+    - Transmission Control ve User Datagram Protocol, bilgisayar ağlarında veri iletişimini sağlayan iletişim protokolüdür.
+
+    - TCP güvenlilirdir ve bağlantı odaklıdır, veri paketleri sıralı bir şekilde iletilir, UDP'de yoktur, daha hızlıdır.
+    
+    - 3-way ve 4-way handshake'lerle bağlantı başlatma ve bağlantı sonlandırma yapılır, UDP'de veriler kaybolabilir.
+    
+    - Başlangıçta istemci sunucuya SYN gönderir, sunucu kabul eder ve SYN-ACK yanıtı verir, istemci bunu alır ve ACK gönderir.
+    
+    - Sonlandırırken de istemci FIN paketi gönderir, sunucu ACK yanıtlar, sonra FIN gönderir, istemci de ACK yanıtı gönderir.
+    
+    - TCP, web sayfalarına erişim, dosya aktarımı, mail aktarımı gibi alanlarda kullanılır.
+    
+    - UDP, çevrimiçi oyunlar, video konferansları, internet üzerinden sesli aramalar gibi alanlarda kullanılır. 
+
+<br></br>
 ## 4- Nesne tabanlı programlamada SOLID prensipleri nelerdir, neden uygulanırlar?
-        SOLID prensipleri, nesne tabanlı programlamada yazılım tasarımını daha sürdürülebilir ve bakımı kolay hale getirir.
-        Single Responsibility, bir sınıfın veya modülün yalnızca bir sorumluluğunun olması gerektiğini belirtir.
-        Open-Closed, yazılımın geliştirilebilir olmasını ancak var olan sınıfların kodunun değiştirilmeden yapılmasını belirtir.
-        Liskov Substitution, bir alt sınıfın, üst sınıfı yerine kullanılabilmesi ve aynı görevleri yapabilmesini belirtir.
-        Interface Segregation, genel arayüzler yerine daha özelleştirilmiş, spesifik ihtiyaçlar için arayüzler olmasını söyler.
-        Dependency Inversion, yüksek seviyeli modüllerin, düşük seviyeli modüllere bağımlılıklarının olmaması gerektiğini söyler.
 
+   - SOLID prensipleri, nesne tabanlı programlamada yazılım tasarımını daha sürdürülebilir ve bakımı kolay hale getirir.
+
+   - Single Responsibility, bir sınıfın veya modülün yalnızca bir sorumluluğunun olması gerektiğini belirtir.
+    
+   - Open-Closed, yazılımın geliştirilebilir olmasını ancak var olan sınıfların kodunun değiştirilmeden yapılmasını belirtir.
+    
+   - Liskov Substitution, bir alt sınıfın, üst sınıfı yerine kullanılabilmesi ve aynı görevleri yapabilmesini belirtir.
+    
+   - Interface Segregation, genel arayüzler yerine daha özelleştirilmiş, spesifik ihtiyaçlar için arayüzler olmasını söyler.
+    
+   - Dependency Inversion, yüksek seviyeli modüllerin, düşük seviyeli modüllere bağımlılıklarının olmaması gerektiğini söyler.
+
+<br></br>
 ## 5- Nesne tabanlı programlamada soyut sınıflar ve soyut üyeler nelerdir ve benzerlerinden nasıl ayrışırlar?
-        Soyut sınıflar, diğer sınıfların temelini oluşturan sınıflardır ve somut nesneler oluşturmak için kullanılamaz.
-        Miras alan sınıflar için bir şablondur, soyut metotların gövdeleri yoktur ve bunlar miras alan sınıfta uygulanmalıdır.
-        Bir soyut sınıfın içerisinde soyut-somut bir sürü metot bulunabilir, ayrıca bir arayüzden de miras alabilir.
-        Bir soyut sınıf, başka bir soyut sınıftan miras alabilir, ancak bir statik sınıfa miras veremez de ondan alamaz da.
-        Soyut metotlar, alt sınıfta `override` edilmelidir, yalnızca bir soyut sınıf içerisinde tanımlanabilirler.
-        Sanal metotların farkı ise alt sınıfta opsiyonel olarak `override` edilebilmeleridir ve üst sınıfta uygulanabilmeleridir.
-        C#, Java gibi dillerde yalnızca bir soyut sınıf miras alınır, Python, C++ ve Rust gibi dillerde birden fazla alınabilir.
-        Örnek kullanımı:
-            public abstract class Banka
-            {
-                public abstract void ParaTransferi();
-            }
+   
+   - Soyut sınıflar, diğer sınıfların temelini oluşturan sınıflardır ve somut nesneler oluşturmak için kullanılamaz.
+   
+   - Miras alan sınıflar için bir şablondur, soyut metotların gövdeleri yoktur ve bunlar miras alan sınıfta uygulanmalıdır.
+   
+   - Bir soyut sınıfın içerisinde soyut-somut bir sürü metot bulunabilir, ayrıca bir arayüzden de miras alabilir.
+   
+   - Bir soyut sınıf, başka bir soyut sınıftan miras alabilir, ancak bir statik sınıfa miras veremez de ondan alamaz da.
+   
+   - Soyut metotlar, alt sınıfta `override` edilmelidir, yalnızca bir soyut sınıf içerisinde tanımlanabilirler.
+   
+   - Sanal metotların farkı ise alt sınıfta opsiyonel olarak `override` edilebilmeleridir ve üst sınıfta uygulanabilmeleridir.
+   
+   - C#, Java gibi dillerde yalnızca bir soyut sınıf miras alınır, Python, C++ ve Rust gibi dillerde birden fazla alınabilir.
+   
+   Örnek kullanımı:
+   ``` cs
+     public abstract class Banka
+     {
+          public abstract void ParaTransferi();
+     }
+   ```
 
+<br></br>
 ## 6- Yazılım Mühendisliğinde Scrum nedir, hangi alt kavramlardan oluşur ve nasıl uygulanır?
         Scrum, bir proje yönetimi çerçevesidir, esnek ve işbirlikçi bir yaklaşımı benimser.
         Temel amacı değişen gereksinimlere daha iyi adapte olmak ve müşteri odaklı çalışmaktır.
