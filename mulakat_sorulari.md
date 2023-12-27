@@ -924,3 +924,4 @@
         <div>, belirli bir bölgenin içeriğini gruplamak ve stil uygulamak için kullanılır, içindeki `class` ile kullanılır. 
             Ör: <div class="container" id="benimDiv"> <p>...</p> </div>.
         <article>, bir belgede bağımsız, tek bir içerik parçasını veya kompozisyonu ifade eden bir yapısal etikettir.
+        `<hr>`, yatay bir çizgi çizen boşluk bırakır, `<br>` da bir boş satır bırakır.
