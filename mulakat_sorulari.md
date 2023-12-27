@@ -337,7 +337,7 @@
         `padding`, öğenin kenarlardan uzaklığını ayarlamaya yarar, ör: padding: 30px; veya padding-top: 20px;.
         `font-family`, yazı tipini ayarlamayı sağlar, ör: font-family: sans-serif;.
         `<hr>` elemanının da uzunluğu ayarlanabilir, örnek: hr { height: 20px; }.
-        Ziyaret edilmiş linkin renginin değişmesi de sağlanabilir, ör: a:visited { ... }, mouse yaklaşanı da: a:hover { ... }.
+        Ziyaret edilmiş linkin renginin değişmesi: a:visited {...}, mouse yaklaşınca: a:hover {...}, basılınca: a:active {...}.
         
         
 
