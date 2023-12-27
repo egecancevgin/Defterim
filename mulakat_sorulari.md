@@ -334,6 +334,9 @@
         /* ... */, CSS dilinde yorum satırları oluşturmak için kullanılır.
         `margin-left` ve `margin-right`, CSS'de bir öğenin sol ve sağ kenarlarına uygulanan dış boşlukları belirlemeye yarar.
         `background-image`, CSS'de bir öğenin arka planına eklenen bir görseli belirler, ör: background-image: url(...).
+        `padding`, öğenin kenarlardan uzaklığını ayarlamaya yarar, ör: padding: 30px; veya padding-top: 20px;.
+        `font-family`, yazı tipini ayarlamayı sağlar, ör: font-family: sans-serif;.
+        
         
 
     32- Bash nedir?
