@@ -336,6 +336,7 @@
         `background-image`, CSS'de bir öğenin arka planına eklenen bir görseli belirler, ör: background-image: url(...).
         `padding`, öğenin kenarlardan uzaklığını ayarlamaya yarar, ör: padding: 30px; veya padding-top: 20px;.
         `font-family`, yazı tipini ayarlamayı sağlar, ör: font-family: sans-serif;.
+        `<hr>` elemanının da uzunluğu ayarlanabilir, örnek: hr { height: 20px; }.
         
         
 
