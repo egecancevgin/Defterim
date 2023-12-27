@@ -389,19 +389,19 @@
 <br></br>
 ## 3- İşletim sistemlerinde `TCP` ve `UDP` kavramları nelerdir, aralarındaki farklar nelerdir ve nerelerde kullanılırlar?
 
-    - Transmission Control ve User Datagram Protocol, bilgisayar ağlarında veri iletişimini sağlayan iletişim protokolüdür.
+   - Transmission Control ve User Datagram Protocol, bilgisayar ağlarında veri iletişimini sağlayan iletişim protokolüdür.
 
-    - TCP güvenlilirdir ve bağlantı odaklıdır, veri paketleri sıralı bir şekilde iletilir, UDP'de yoktur, daha hızlıdır.
+   - TCP güvenlilirdir ve bağlantı odaklıdır, veri paketleri sıralı bir şekilde iletilir, UDP'de yoktur, daha hızlıdır.
     
-    - 3-way ve 4-way handshake'lerle bağlantı başlatma ve bağlantı sonlandırma yapılır, UDP'de veriler kaybolabilir.
+   - 3-way ve 4-way handshake'lerle bağlantı başlatma ve bağlantı sonlandırma yapılır, UDP'de veriler kaybolabilir.
     
-    - Başlangıçta istemci sunucuya SYN gönderir, sunucu kabul eder ve SYN-ACK yanıtı verir, istemci bunu alır ve ACK gönderir.
+   - Başlangıçta istemci sunucuya SYN gönderir, sunucu kabul eder ve SYN-ACK yanıtı verir, istemci bunu alır ve ACK gönderir.
     
-    - Sonlandırırken de istemci FIN paketi gönderir, sunucu ACK yanıtlar, sonra FIN gönderir, istemci de ACK yanıtı gönderir.
+   - Sonlandırırken de istemci FIN paketi gönderir, sunucu ACK yanıtlar, sonra FIN gönderir, istemci de ACK yanıtı gönderir.
     
-    - TCP, web sayfalarına erişim, dosya aktarımı, mail aktarımı gibi alanlarda kullanılır.
+   - TCP, web sayfalarına erişim, dosya aktarımı, mail aktarımı gibi alanlarda kullanılır.
     
-    - UDP, çevrimiçi oyunlar, video konferansları, internet üzerinden sesli aramalar gibi alanlarda kullanılır. 
+   - UDP, çevrimiçi oyunlar, video konferansları, internet üzerinden sesli aramalar gibi alanlarda kullanılır. 
 
 <br></br>
 ## 4- Nesne tabanlı programlamada SOLID prensipleri nelerdir, neden uygulanırlar?
@@ -445,88 +445,124 @@
 
 <br></br>
 ## 6- Yazılım Mühendisliğinde Scrum nedir, hangi alt kavramlardan oluşur ve nasıl uygulanır?
-        Scrum, bir proje yönetimi çerçevesidir, esnek ve işbirlikçi bir yaklaşımı benimser.
-        Temel amacı değişen gereksinimlere daha iyi adapte olmak ve müşteri odaklı çalışmaktır.
-        Product Owner, Scrum Master ve Geliştirme Ekibinden oluşur, 2 haftalık `sprint`ler ile ürün parçacığı teslim edilir.
-        15 dakikalık Daily Scrum, Sprint Planlama, Sprint Retrospektifi toplantıları ile bir iterasyon yapılır.
-        Product Backlog görev ve gereksinimlerin tutulduğu listedir, Kullanıcı Hikayeleri bir gereksinimi açıklar.
-        Sprint Backlog, sprintte gerçekleşecek işlerin listesidir, Scrum Board proje ilerlemesinin görsel takibini sağlar.
-        Burn-Down Chart, sprint sırasında tamamlanması gereken işlerin kalan miktarını zaman içinde gösteren grafiktir.
-        Definition of Done, bir işin bitişini ve kabul edilebilir olduğunu belirleyen listedir ve her KH için bir DoD olmalıdır.
-        Efor, görevin tamamlanması için gereken tahmini çalışma süresidir, Velocity ise sprint boyunca tamamlanan efordur.
-        Burn-Up Chart, sprintte tamamlanan iş miktarıdır, Hazır Tanımı da bir görevin ekip tarafından bakılmaya hazır olmasıdır.
-    
-## 7- Nesne Tabanlı Programlamada erişim belirteçleri nelerdir, ne işe yararlar ve dillere göre nasıl değişirler?
-        Erişim belirteçleri, sınıf üyelerine ve sınıflara erişimi düzenler ve ilişkileri yönetir.
-        Public, tüm erişim seviyelerinin en açık olanıdır, herkesin bu üyeye erişmesine izin verilir.
-        Private, yalnızca aynı sınıf içerisinden erişime izin verir, diğer sınıflar ve kodlar bu üyelere erişemezler.
-        Protected, aynı sınıf veya alt sınıflardan erişime izin verir, miras alınan sınıfların hiyerarşisinde kullanılır.
-        Internal, yalnızca aynı derleme içinden erişime izin verir, bu C# dilinde kullanılırken Java'da Default olarak bilinir.
-        Friend, private olan sınıf üyelerine erişimi sağlar, yalnızca C++ dilinde kullanılır.
-        C# dilinde protected internal ve private protected da vardır, varsayılan olarak sınıflar internal, üyeler private'dır.
-        Java'da default hem sınıflarda hem üyelerde varsayılan belirteçtir, C++ dilinde ise hem sınıflar hem üyeler private'dır.
-    
-## 8- Makine Öğrenimini üç ana aşamaya ayıracak olursak bu aşamalar neler olur ve bu aşamalarda neler yapılır?
-        Representation, verilerin temsil edildiği ve makine öğrenimi modelinin oluşturulup bu temsille öğrendiği aşamadır.
-        Feature Engineering, boyut azaltma ve matematiksel algoritmaların seçimleri bu aşamada gerçekleştirilir.
-        Evaluation, modelin performansının objektif bir şekilde uygun metriklerle ölçüldüğü aşamadır.
-        Bu metrikler accuracy, precision, recall, F1-score, ROC eğrisi, AUC olabilir ve bunlara karmaşa matrisinden bakılabilir.
-        Optimization, modelin performansını iyileştirmek amacıyla bazı ayarların yapıldığı ve yeniden düzenlendiği aşamadır.
-        Hiperparametre ayarı, overfitting-underfitting tespiti, aktivasyon fonksiyonları, regularization yapılabilir.
-    
-## 9- Binary Search algoritması nasıl çalışır, karmaşıklık seviyesi nedir, normal arama algoritmalarından farkı nedir?
-        İkili arama algoritması, decrease and conquer tasarım paradigmasına uyan bir arama algoritmasıdır.
-        Orijinalde sıralı olan bir dizi içerisinde belirli bir elemanı arar, diziyi her seferinde ikiye bölerek çalışır.
-        Lineer arama algoritmasının karmaşıklığı en kötü durumda O(n) iken, ikili arama algoritması bunu O(logn)'e düşürür.
-        Örnek kullanımı:
-            static int BinarySearch(int[] arr, int target)
-            {
-                int lo = 0, hi = arr.Length - 1;
-                while (lo <= hi)
-                {
-                    int mid = lo + (hi - lo) / 2;
-                    if (arr[mid] == target)
-                        return mid;
-                    if (arr[mid] < target)
-                        lo = mid + 1;
-                    else
-                        hi = mid - 1;
-                }
-                return -1;
-            }
-    
-## 10- Nesne tabanlı programlamada `Polimorfizm` kavramı nedir, nasıl uygulanır ve benzer kavramlardan nasıl ayrışır?
-        Polimorfizm, farklı nesnelerin aynı şablonu kullanarak farklı şekillerde davranabilmesidir.
-        Derleme zamanı ve koşu zamanı polimorfizmi olarak ikiye ayrılır.
-        Derleme zamanı polimorfizmi aynı zamanda statik polimorfizm olarak da ifade edilir, overloading işlemidir.
-        Overloading işlemi metot overloading ve operator overloading olarak da ikiye ayrılır.
-        Koşu zamanı polimorfizmi aynı zamanda dinamik polimorfizm olarak da ifade edilir, override işlemidir.
-        Örnek kullanımlar:
-            public int Topla(int s1, int s2) { ... }    
-            public int Topla(int s1, int s2, int s3) { ... }                      // Method overloading
-            ...
-            public static KarmaşıkSayı operator +(Complex c1, Complex c2) { ... } // Operator overloading
-            ...
-            public override AlanHesabı(int yarıçap) { ... }                       // Method overriding
-    
-## 11- SQL dilinde `JOIN` kavramı nedir, türleri nelerdir ve nasıl uygulanır?
-        JOIN, verileri birden fazla tablodan çekmeye ve tablolar arasındaki ilişkileri kullanarak birleştirmeye yarar.
-        INNER JOIN, belirtilen iki tabloda eşleşen satırları getirir, yalnızca iki tablonun ortak satırlarını döndürür.
-        LEFT JOIN, ilk yani sol tablodaki tüm satırları ve bu satırların eşleştiği sağ tablodaki satırları getirir, yoksa NULL.
-        RIGHT JOIN, operatörün sağ tarafındaki (ikinci) tüm satırları ve bu satırların eşleştiği sol tablo satırlarını döner.
-        FULL OUTER JOIN, her iki tablonun da tamamını getirir, eşleşen satırları ve eşleşmeyen satırları içerir.
-        CROSS JOIN, belirtilen tablolar arasındaki tüm olası kombinasyonları üretir, her satırı her diğer satırla eşleştirir.
-            Örnek sonuç, bir tabloda Berna-Esra satırları olsun bir tabloda da Ege-Emine satırları olsun, bunların cross join'i:
-                Berna-Ege, Berna-Emine, Esra-Ege, Esra-Emine...
-        SELF JOIN, aynı tablo içindeki farklı sütunları birbiyle ilişkilendirmek için kullanılır.
-        Örnek kullanımlar:
-            SELECT Orders.OrderID, Customers.CustName FROM Orders INNER JOIN Customers ON Orders.CustID = Customers.CustID;
-            SELECT Employees.EmpName, Orders.OrdID FROM Employees LEFT JOIN ON Employees.EmployeeID = Orders.EmployeeID;
-            SELECT Employees.Empname FROM Employees RIGHT JOIN ON Employees.EmployeeID = Orders.EmployeeID;
-            SELECT Customers.CustName, Orders.OrdID FROM Customers FULL OUTER JOIN Orders ON Customers.CustID = Orders.OrdID;
-            SELECT Tablo1.Sutun1, Tablo2.Sutun2 FROM Tablo1 CROSS JOIN Tablo2;
-            SELECT c1.Ad AS ClsnIsmi, c2.Isim AS YnticiIsmi FROM Calisanlar c1 LEFT JOIN Calisanlar c2 ON c1.YntID = c2.ClsID;
+   - Scrum, bir proje yönetimi çerçevesidir, esnek ve işbirlikçi bir yaklaşımı benimser.
+ 
+   - Temel amacı değişen gereksinimlere daha iyi adapte olmak ve müşteri odaklı çalışmaktır.
+   
+   - Product Owner, Scrum Master ve Geliştirme Ekibinden oluşur, 2 haftalık `sprint`ler ile ürün parçacığı teslim edilir.
+   
+   - 15 dakikalık Daily Scrum, Sprint Planlama, Sprint Retrospektifi toplantıları ile bir iterasyon yapılır.
+   
+   - Product Backlog görev ve gereksinimlerin tutulduğu listedir, Kullanıcı Hikayeleri bir gereksinimi açıklar.
+   
+   - Sprint Backlog, sprintte gerçekleşecek işlerin listesidir, Scrum Board proje ilerlemesinin görsel takibini sağlar.
+   
+   - Burn-Down Chart, sprint sırasında tamamlanması gereken işlerin kalan miktarını zaman içinde gösteren grafiktir.
+   
+   - Definition of Done, bir işin bitişini ve kabul edilebilir olduğunu belirleyen listedir ve her KH için bir DoD olmalıdır.
+   
+   - Efor, görevin tamamlanması için gereken tahmini çalışma süresidir, Velocity ise sprint boyunca tamamlanan efordur.
+   
+   - Burn-Up Chart, sprintte tamamlanan iş miktarıdır, Hazır Tanımı da bir görevin ekip tarafından bakılmaya hazır olmasıdır.
 
+<br></br>
+## 7- Nesne Tabanlı Programlamada erişim belirteçleri nelerdir, ne işe yararlar ve dillere göre nasıl değişirler?
+   
+   - Erişim belirteçleri, sınıf üyelerine ve sınıflara erişimi düzenler ve ilişkileri yönetir.
+   
+   - Public, tüm erişim seviyelerinin en açık olanıdır, herkesin bu üyeye erişmesine izin verilir.
+   
+   - Private, yalnızca aynı sınıf içerisinden erişime izin verir, diğer sınıflar ve kodlar bu üyelere erişemezler.
+   
+   - Protected, aynı sınıf veya alt sınıflardan erişime izin verir, miras alınan sınıfların hiyerarşisinde kullanılır.
+   
+   - Internal, yalnızca aynı derleme içinden erişime izin verir, bu C# dilinde kullanılırken Java'da Default olarak bilinir.
+   
+   - Friend, private olan sınıf üyelerine erişimi sağlar, yalnızca C++ dilinde kullanılır.
+   
+   - C# dilinde protected internal ve private protected da vardır, varsayılan olarak sınıflar internal, üyeler private'dır.
+   
+   - Java'da default hem sınıflarda hem üyelerde varsayılan belirteçtir, C++ dilinde ise hem sınıflar hem üyeler private'dır.
+
+<br></br>    
+## 8- Makine Öğrenimini üç ana aşamaya ayıracak olursak bu aşamalar neler olur ve bu aşamalarda neler yapılır?
+   
+   - Representation, verilerin temsil edildiği ve makine öğrenimi modelinin oluşturulup bu temsille öğrendiği aşamadır.
+   
+   - Feature Engineering, boyut azaltma ve matematiksel algoritmaların seçimleri bu aşamada gerçekleştirilir.
+   
+   - Evaluation, modelin performansının objektif bir şekilde uygun metriklerle ölçüldüğü aşamadır.
+   
+   - Bu metrikler accuracy, precision, recall, F1-score, ROC eğrisi, AUC olabilir ve bunlara karmaşa matrisinden bakılabilir.
+   
+   - Optimization, modelin performansını iyileştirmek amacıyla bazı ayarların yapıldığı ve yeniden düzenlendiği aşamadır.
+   
+   - Hiperparametre ayarı, overfitting-underfitting tespiti, aktivasyon fonksiyonları, regularization yapılabilir.
+
+<br></br>
+## 9- Binary Search algoritması nasıl çalışır, karmaşıklık seviyesi nedir, normal arama algoritmalarından farkı nedir?
+   - İkili arama algoritması, decrease and conquer tasarım paradigmasına uyan bir arama algoritmasıdır.
+   - Orijinalde sıralı olan bir dizi içerisinde belirli bir elemanı arar, diziyi her seferinde ikiye bölerek çalışır.
+   - Lineer arama algoritmasının karmaşıklığı en kötü durumda O(n) iken, ikili arama algoritması bunu O(logn)'e düşürür.
+   Örnek kullanımı:
+   ``` cs
+   static int BinarySearch(int[] arr, int target)
+   {
+        int lo = 0, hi = arr.Length - 1;
+        while (lo <= hi)
+        {
+             int mid = lo + (hi - lo) / 2;
+             if (arr[mid] == target)
+                  return mid;
+             if (arr[mid] < target)
+                  lo = mid + 1;
+             else
+                  hi = mid - 1;
+        }
+        return -1;
+   }
+   ```
+<br></br>    
+## 10- Nesne tabanlı programlamada `Polimorfizm` kavramı nedir, nasıl uygulanır ve benzer kavramlardan nasıl ayrışır?
+   - Polimorfizm, farklı nesnelerin aynı şablonu kullanarak farklı şekillerde davranabilmesidir.
+   - Derleme zamanı ve koşu zamanı polimorfizmi olarak ikiye ayrılır.
+   - Derleme zamanı polimorfizmi aynı zamanda statik polimorfizm olarak da ifade edilir, overloading işlemidir.
+   - Overloading işlemi metot overloading ve operator overloading olarak da ikiye ayrılır.
+   - Koşu zamanı polimorfizmi aynı zamanda dinamik polimorfizm olarak da ifade edilir, override işlemidir.
+   Örnek kullanımlar:
+   ``` cs
+   public int Topla(int s1, int s2) { ... }    
+   public int Topla(int s1, int s2, int s3) { ... }                      // Method overloading
+   ...
+   public static KarmaşıkSayı operator +(Complex c1, Complex c2) { ... } // Operator overloading
+   ...
+   public override AlanHesabı(int yarıçap) { ... }                       // Method overriding
+   ```
+
+<br></br>    
+## 11- SQL dilinde `JOIN` kavramı nedir, türleri nelerdir ve nasıl uygulanır?
+ 
+   - `JOIN`, verileri birden fazla tablodan çekmeye ve tablolar arasındaki ilişkileri kullanarak birleştirmeye yarar.
+   - `INNER JOIN`, belirtilen iki tabloda eşleşen satırları getirir, yalnızca iki tablonun ortak satırlarını döndürür.
+   - `LEFT JOIN`, ilk yani sol tablodaki tüm satırları ve bu satırların eşleştiği sağ tablodaki satırları getirir, yoksa NULL.
+   - `RIGHT JOIN`, operatörün sağ tarafındaki (ikinci) tüm satırları ve bu satırların eşleştiği sol tablo satırlarını döner.
+   - `FULL OUTER JOIN`, her iki tablonun da tamamını getirir, eşleşen satırları ve eşleşmeyen satırları içerir.
+   - `CROSS JOIN`, belirtilen tablolar arasındaki tüm olası kombinasyonları üretir, her satırı her diğer satırla eşleştirir.
+   Örnek sonuç, bir tabloda Berna-Esra satırları olsun bir tabloda da Ege-Emine satırları olsun, bunların cross join'i:
+   
+   Berna-Ege, Berna-Emine, Esra-Ege, Esra-Emine...
+   
+   - `SELF JOIN`, aynı tablo içindeki farklı sütunları birbiyle ilişkilendirmek için kullanılır.
+   Örnek kullanımlar:
+   ``` sql
+   SELECT Orders.OrderID, Customers.CustName FROM Orders INNER JOIN Customers ON Orders.CustID = Customers.CustID;
+   SELECT Employees.EmpName, Orders.OrdID FROM Employees LEFT JOIN ON Employees.EmployeeID = Orders.EmployeeID;
+   SELECT Employees.Empname FROM Employees RIGHT JOIN ON Employees.EmployeeID = Orders.EmployeeID;
+   SELECT Customers.CustName, Orders.OrdID FROM Customers FULL OUTER JOIN Orders ON Customers.CustID = Orders.OrdID;
+   SELECT Tablo1.Sutun1, Tablo2.Sutun2 FROM Tablo1 CROSS JOIN Tablo2;
+   SELECT c1.Ad AS ClsnIsmi, c2.Isim AS YnticiIsmi FROM Calisanlar c1 LEFT JOIN Calisanlar c2 ON c1.YntID = c2.ClsID;
+   ```
+<br></br>
 ## 12- Makine Öğreniminde Lineer Regresyon ile Lojistik Regresyon algoritmaları nelerdir ve nasıl öğrenirler?
             Lineer Regresyon, bir dizi noktaya en uygun düz çizgiyi bulmak için kullanılır, sürekli değerleri tahmin eder.
             Öğrenme denklemi: y' = b + w1x1 + w2x2 + ... + wnxn şeklindedir, b: bias, w: ağırlık, x: veri noktasıdır.
@@ -547,7 +583,8 @@
                 model = LogisticRegression()
                 model.fit(X_train, y_train)
                 y_pred = model.predict(X_test)
-    
+
+<br></br>
 ## 13- Nesne tabanlı programlamada Inheritance, Encapsulation, Abstraction kavramları nedir ve nasıl ayrışırlar?
         Inheritance, bir sınıfın başka bir sınıftan özelliklerini ve davranışlarını devralmasını sağlar.
         Kodun DRY prensibine uymasını sağlar, Multiple, Multilevel, Hiyerarşik Inheritance türleri vardır.
@@ -578,6 +615,7 @@
             }
             ...
 
+<br></br>
 ## 14- Bubble Sort algoritması nasıl çalışır, karmaşıklık seviyesi nedir, nasıl uygulanır?
         Bubble Sort, bir diziyi sıralamak için bitişik elemanları karşılaştırarak gerektiğinde yer değiştirir.
         İç döngüde bir tur, en büyük elemanı bulup onu listenin en sonuna koymaya yarar.
@@ -605,7 +643,8 @@
                         break;
                 }
             }
-    
+
+<br></br>
 ## 15- Yazılım Mühendisliğinde DevOps ve CI/CD kavramları nedir, aşamaları ve avantajları nelerdir?
         DevOps, yazılım geliştirme ve IT operasyonları arasındaki işbirliği arttıran hızlı ve güvenilir bir yaklaşımdır.
         Plan, Code, Build, Test, Release, Deploy, Operate, Monitor şeklinde 8 adımdan oluşur.
@@ -619,7 +658,8 @@
         Sürekli Entegrasyon, kaynak kod değişiklik kontrolü, otomatik derleme ve testler, raporlama prensiplerine dayanır.
         Sürekli Delivery, yazılımın canlıya teslim edilmesi için hazır olduğu ancak son bir onay bekleyen aşamadır.
         Sürekli Deployment aşamasında ise yazılım her değişiklik yapıldığında otomatik olarak canlı üretim ortamına dağıtılır.
-    
+
+<br></br>
 ## 16- T-SQL nedir, komutları kaça ayrılır ve ACID property'leri nelerdir?
         Transact-SQL, Microsoft'un hazırladığı, Microsoft SQL Server'da kullanılan bir SQL türevidir.
         Transaction, SQL sorgularının ve komutlarının gruplandığı bir işlem birimidir.
@@ -642,6 +682,7 @@
             WHERE HesapNumarası = 234523156;
             COMMIT TRANSACTION BankaUpdate;
 
+<br></br>
 ## 17- Yazılım Mühendisliğinde versiyon kontrol sistemleri nedir, nasıl çalışır ve temel Git komutları nelerdir?
         Versiyon kontrol sistemleri, yazılım geliştirme süreçlerinde kaynak kodunun yönetilmesini sağlayan bir araçtır.
         Merkezi ve Dağıtık versiyon kontrol sistemleri olarak iki ana kategoriye ayrılır.
@@ -670,6 +711,7 @@
             git rebase: Mevcut branch'teki commit geçmişini, belirtilen <base> branch veya commit üzerine uygular.
             git switch: Belirli bir branch'i seçmek veya başka bir branch arasında geçiş yapmak için kullanılır.
 
+<br></br>
 ## 18- Linux nedir, UNIX ile arasındaki fark nedir, mimarisinde neler vardır?
         Linux, özgür yazılım topluluğu tarafından geliştirilen açık kaynaklı bir işletim sistemi çekirdeğidir.
         GNU General Public License altında dağıtılır, örnek dağıtımları arasında Ubuntu, CentOS, Debian ve Fedora bulunur.
@@ -695,6 +737,7 @@
         /etc/passwd dosyası, kullanıcı adları, kullanıcı kimlikleri, giriş dizinleri ve varsayılan kabuk gibi bilgiler saklar.
         /etc/shadow dosyası, şifrelenmiş parolaları ve güvenlikle ilgili diğer bilgileri içerir, root tarafından erişilebilir.
 
+<br></br>
 ## 19- Containerization nedir, Docker nasıl çalışır ve mimarisinde neler vardır?
         Containerization, bir uygulama için gerekli olan tüm bağımlılıkları ve ortamı içeren izole paketler oluşturmaktır.
         Docker, uygulamaları, bağımlılıkları ve ortamı bir araya getirerek izole konteynerlar oluşturmayı sağlar.
@@ -725,6 +768,7 @@
             COPY ..
             CMD ["python", "app.py"]
 
+<br></br>
 ## 20- NoSQL nedir, temel özellikleri nedir ve hangi DBMS'ler buna örnektir?
         Not Only SQL, ilişkisel olmayan büyük ve dağılmış veri setleri ile çalışmak üzere tasarlanmış veritabanı sistemleridir.
         Genellikler veritabanına veri eklerken veya çıkarırken bir şema tanımlamaya gerek yoktur.
@@ -752,6 +796,7 @@
             db.mycollection.aggregate([{ $group: { _id: "$city", count: { $sum: 1 } } }])
             db.stats()
 
+<br></br>
 ## 21- Yazılım Mühendisliğinde Mikroservisler, SOA, Monolitik Uygulamalar nelerdir ve benzer kavramlardan nasıl ayrışırlar?
         Monolitik uygulama, tek bir büyük bütünleşik kod tabanına sahip olan geleneksel bir uygulama mimarisidir.
             Geliştirme, dağıtım ve ölçeklendirme genellikle bir birim halinde yapılır.
@@ -770,6 +815,7 @@
         Serverless Mimari, altyapının yönetimini geliştiriciden uzaklaştıran ve sadece işlevselliğe odakladığı yaklaşımdır.
         Event-Driven mimari, olayların gerçekleşmesine dayalı olarak sistemlerin tepki verdiği bir yaklaşımdır.
 
+<br></br>
 ## 22- Kuyruk, yığın ve bağlı liste veri yapıları arasındaki farklar nelerdir?
         Kuyruk, FIFO prensibine dayanır, `Breadth First Search` içerisinde kullanılabilir, yani seviye seviye aramadır.
         Basit, dairesel, öncelikli kuyruk gibi türleri, `Enqueue()-Dequeue()-Front()-Rear()-IsFull()` gibi metotları vardır. 
@@ -794,6 +840,7 @@
                 }
             }
 
+<br></br>
 ## 23- T-SQL'de şart blokları, döngüler, trigger ve indeksler nelerdir, nasıl uygulanırlar?
         Şart blokları, belirli bir koşulu kontrol etmek için kullanılır ör: `IF`, `CASE-WHEN` ve `IIF`.
         `IF` sadece işlemler içerisinde kullanılırken, `CASE-WHEN` sorgu içinde, IIF de sorgularda tek koşulla çalışır.
@@ -840,7 +887,8 @@
             CREATE INDEX IX1 ON CUSTOMERS 
             (NAMESURNAME)
             ...
-    
+
+<br></br>
 ## 24- HTML nedir, temel kavramları ve bileşenleri nelerdir?
         HyperText Markup Language, web sayfalarının yapısal içeriğini tanımlayan bir işaretleme dilidir. 
         Etiketler ve bunların içerisinde attribute'lar bulunur, etiketler genellikle <tag> ... </tag> şeklinde kullanılır.
