@@ -1,9 +1,9 @@
 # Egecan Çelik Evgin
 
 
-## Toplam Çalışma Saati:               372 Saat
+## Toplam Çalışma Saati:               374 Saat
 
-## Uzmanlık Seviyesine Giden Yol:      %3.72
+## Uzmanlık Seviyesine Giden Yol:      %3.74
  
 
 ## Nizami Çalışma Kaydı:
@@ -332,7 +332,7 @@
         `background-color`, bir öğenin arka plan rengini belirler, ör: body { background-color: brown }.
         `width`, bir öğenin yatay boyutunu yani genişliğini tanımlar,   ör: benimDiv { width: 300px; }.
         /* ... */, CSS dilinde yorum satırları oluşturmak için kullanılır, `border-color` da öğenin kenarlarını renklendirir.
-        `margin-left` ve `margin-right`, CSS'de bir öğenin sol ve sağ kenarlarına uygulanan dış boşlukları belirlemeye yarar.
+        `margin-left`, `right-top-bottom`, CSS'de bir öğenin sol ve sağ kenarlarına uygulanan dış boşlukları belirlemeye yarar.
         `background-image`, CSS'de bir öğenin arka planına eklenen bir görseli belirler, ör: background-image: url(...).
         `padding`, öğenin kenarlardan uzaklığını ayarlamaya yarar, ör: padding: 30px; veya padding-top: 20px;.
         `font-family`, yazı tipini ayarlamayı sağlar, ör: font-family: sans-serif;.
