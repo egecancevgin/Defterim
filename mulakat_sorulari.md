@@ -342,7 +342,9 @@
         `<hr>` elemanının da uzunluğu ayarlanabilir, örnek: hr { height: 20px; }.
         Ziyaret edilmiş linkin renginin değişmesi: a:visited {...}, mouse yaklaşınca: a:hover {...}, basılınca: a:active {...}.
         `rgb()` fonksiyonu, R-G-B (0-255) bileşenlerini kullanarak bir renk tanımlamanıza olanak tanır, ör: rgb(20, 50, 56).
-        Renklerin on altılık kodlarla temsil edilmesi de oldukça yaygındır, ör: #00FF00 (Tamamen yeşil).
+             Renklerin on altılık kodlarla temsil edilmesi de oldukça yaygındır, ör: #00FF00 (Tamamen yeşil).
+        `hsl()` fonksiyonu, `hue-saturation-lightness` parametreleri ile renk temsilidir, 0-120-240 RGB değerleridir.
+             Ör: background-color: hsl(120, 100%, 50%);
         
         
 
