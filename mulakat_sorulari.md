@@ -333,6 +333,7 @@
         `width`, bir öğenin yatay boyutunu yani genişliğini tanımlar,   ör: benimDiv { width: 300px; }.
         /* ... */, CSS dilinde yorum satırları oluşturmak için kullanılır, `border-color` da öğenin kenarlarını renklendirir.
         `margin-left`, `right-top-bottom`, CSS'de bir öğenin sol ve sağ kenarlarına uygulanan dış boşlukları belirlemeye yarar.
+              Ör: margin: 10px auto; dersek `top` ve `bottom` kısımları 10px ile, `left` ve `right` kısımları auto olur.
         `background-image`, CSS'de bir öğenin arka planına eklenen bir görseli belirler, ör: background-image: url(...).
         `padding`, öğenin kenarlardan uzaklığını ayarlamaya yarar, ör: padding: 30px; veya padding-top: 20px;.
         `font-family`, yazı tipini ayarlamayı sağlar, ör: font-family: sans-serif;.
