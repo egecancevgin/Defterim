@@ -1,9 +1,9 @@
 # Egecan Çelik Evgin
 
 
-## Toplam Çalışma Saati:               375 Saat
+## Toplam Çalışma Saati:               376 Saat
 
-## Uzmanlık Seviyesine Giden Yol:      %3.75
+## Uzmanlık Seviyesine Giden Yol:      %3.76
  
 
 ## Nizami Çalışma Kaydı:
@@ -345,6 +345,8 @@
              Renklerin on altılık kodlarla temsil edilmesi de oldukça yaygındır, ör: #00FF00 (Tamamen yeşil).
         `hsl()` fonksiyonu, `hue-saturation-lightness` parametreleri ile renk temsilidir, 0-120-240 RGB değerleridir.
              Ör: background-color: hsl(120, 100%, 50%);
+        `linear-gradient()` fonksiyonu, bir elemanın arka planına lineer renk geçişi oluşturmak için kullanılır.
+             Ör: background-color: linear-gradient(to right, red, green);
         
         
 
