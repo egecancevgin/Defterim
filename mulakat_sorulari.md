@@ -89,7 +89,9 @@
     21 Aralık 2023 Perşembe:   5 saat
     22 Aralık 2023 Cuma:       4 saat 
     24 Aralık 2023 Pazar:      1 saat 
-    25 Aralık 2023 Pazartesi:  5 saat 
+    25 Aralık 2023 Pazartesi:  5 saat
+    26 Aralık 2023 Salı:       2 saat 
+    27 Aralık 2023 Çarşamba:   3 saat
 
 ## Beceriler:
     Yazılım Geliştirme
@@ -339,6 +341,7 @@
         `font-family`, yazı tipini ayarlamayı sağlar, ör: font-family: sans-serif;.
         `<hr>` elemanının da uzunluğu ayarlanabilir, örnek: hr { height: 20px; }.
         Ziyaret edilmiş linkin renginin değişmesi: a:visited {...}, mouse yaklaşınca: a:hover {...}, basılınca: a:active {...}.
+        `rgb()` fonksiyonu, R-G-B (0-255) bileşenlerini kullanarak bir renk tanımlamanıza olanak tanır, ör: rgb(20, 50, 56).
         
         
 
