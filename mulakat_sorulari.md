@@ -1,9 +1,9 @@
 # Egecan Çelik Evgin
 
 
-## Toplam Çalışma Saati:               378 Saat
+## Toplam Çalışma Saati:               379 Saat
 
-## Uzmanlık Seviyesine Giden Yol:      %3.78
+## Uzmanlık Seviyesine Giden Yol:      %3.79
  
 
 ## Nizami Çalışma Kaydı:
@@ -350,6 +350,7 @@
         `opacity`, transparanlık ve opaklık ayarlamaya yarar, ör: opacity: 0.5;, `rgba` ise `rgb()`'ye `alpha`'nın eklenmesidir.
              Ör: display: block; dersek bu öğe kendini tek satırda blok olarak tutar.
         `box-shadow`, bir öğenin kutu modeline göre gölgesini eklemeye yarar, ör: box-shadow: 5px 5px 5px grey;.
+        
         
         
 
