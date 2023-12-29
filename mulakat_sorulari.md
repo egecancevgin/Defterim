@@ -582,56 +582,58 @@
    ```
 <br></br>
 ## 12- Makine Öğreniminde Lineer Regresyon ile Lojistik Regresyon algoritmaları nelerdir ve nasıl öğrenirler?
-            Lineer Regresyon, bir dizi noktaya en uygun düz çizgiyi bulmak için kullanılır, sürekli değerleri tahmin eder.
-            Öğrenme denklemi: y' = b + w1x1 + w2x2 + ... + wnxn şeklindedir, b: bias, w: ağırlık, x: veri noktasıdır.
-            Loss, bir modelin bir örnekteki tahmininin hatasıdır ve tamamen doğru bir tahmin için sıfır değerini alır.
-            Mean Squared Error, lineer regresyon için popüler bir kayıp fonksiyonudur.
-            MSE, gözlemlenen ve tahmin edilen değerler arasındaki farkı ölçer ve karesini alır.
-            Lojistik Regresyon, sınıflandırma problemlerini çözmek için kullanılan bir algoritmadır.
-            Tam olarak 0 veya 1'i tahmin etmek yerine bir olasılık üretir, ayarlanmış bir eşik değer ile tahmin yapılır.
-            Sigmoid aktivasyon fonksiyonu sayesinde çıktının her zaman 0-1 arasında olması sağlanır (y = 1 / (1 + e^-z)).
-            LR'un kayıp fonksiyonu log loss'tur ve şu şekilde tanımlanır: sum(x, y){ -y*log(y') - (1-y)*log(1-y') }.
-            Threshold yükselirse yüksek ihtimalle precision düşer, recall artar ve düşürülürse de tam tersi.
-            Örnek kullanım:
-                from sklearn.linear_model import LinearRegression, LogisticRegression
-                model = LinearRegression()
-                model.fit(X, y)                      # X: Bağımsız değişkenleri, y: Bağımlı değişkeni belirtir
-                y_pred = model.predict(Z)
-                ...
-                model = LogisticRegression()
-                model.fit(X_train, y_train)
-                y_pred = model.predict(X_test)
-
+   - Lineer Regresyon, bir dizi noktaya en uygun düz çizgiyi bulmak için kullanılır, sürekli değerleri tahmin eder.
+   - Öğrenme denklemi: y' = b + w1x1 + w2x2 + ... + wnxn şeklindedir, b: bias, w: ağırlık, x: veri noktasıdır.
+   - Loss, bir modelin bir örnekteki tahmininin hatasıdır ve tamamen doğru bir tahmin için sıfır değerini alır.
+   - Mean Squared Error, lineer regresyon için popüler bir kayıp fonksiyonudur.
+   - MSE, gözlemlenen ve tahmin edilen değerler arasındaki farkı ölçer ve karesini alır.
+   - Lojistik Regresyon, sınıflandırma problemlerini çözmek için kullanılan bir algoritmadır.
+   - Tam olarak 0 veya 1'i tahmin etmek yerine bir olasılık üretir, ayarlanmış bir eşik değer ile tahmin yapılır.
+   - Sigmoid aktivasyon fonksiyonu sayesinde çıktının her zaman 0-1 arasında olması sağlanır (y = 1 / (1 + e^-z)).
+   - LR'un kayıp fonksiyonu log loss'tur ve şu şekilde tanımlanır: sum(x, y){ -y*log(y') - (1-y)*log(1-y') }.
+   - Threshold yükselirse yüksek ihtimalle precision düşer, recall artar ve düşürülürse de tam tersi.
+   Örnek kullanım:
+   ``` python
+   from sklearn.linear_model import LinearRegression, LogisticRegression
+   model = LinearRegression()
+   model.fit(X, y)                      # X: Bağımsız değişkenleri, y: Bağımlı değişkeni belirtir
+   y_pred = model.predict(Z)
+   ...
+   model = LogisticRegression()
+   model.fit(X_train, y_train)
+   y_pred = model.predict(X_test)
+   ```
+ 
 <br></br>
 ## 13- Nesne tabanlı programlamada Inheritance, Encapsulation, Abstraction kavramları nedir ve nasıl ayrışırlar?
-        Inheritance, bir sınıfın başka bir sınıftan özelliklerini ve davranışlarını devralmasını sağlar.
-        Kodun DRY prensibine uymasını sağlar, Multiple, Multilevel, Hiyerarşik Inheritance türleri vardır.
-        Multiple kalıtım birden fazla sınıftan miras almaktır, buna izin veren diller C++, Python, Kotlin, Ruby ve Rust'dır.
-        Multilevel Inheritance bir sınıfın hem bir üst sınıfının hem de bir alt sınıfının olmasıdır.
-        Hiyerarşik Inheritance bir sınıfın birden fazla sınıfa ayrı ayrı miras vermesidir.
-        Encapsulation, sınıfın içeriğini dış dünyadan gizlemeyi ve erişimini kontrol etmeyi hedefler.
-        Bunu gerçekleştirmek için private erişim belirteci ve getter-setter property'ler kullanılabilir.
-        Abstraction, gerekli olmayan özellik ve metotların, yazılım geliştiricinin gözünün önünde bulunmamasını hedefler.
-        Bunu soyut sınıflar ve arayüzlerle gerçekleştirmek mümkündür.
-        Örnek kullanım:
-            public class KatılımBankası: Banka { ... }             // Inheritance
-            ...
-            public class KatılımBankası          
-            {
-                private int TCKimlik;
-                public int TCKimlik                                // Encapsulation
-                {
-                    get
-                    {
-                        return TCKimlik;
-                    }
-                    set
-                    {
-                        TCKimlik = value;
-                    }
-                }
-            }
-            ...
+   - Inheritance, bir sınıfın başka bir sınıftan özelliklerini ve davranışlarını devralmasını sağlar.
+   - Kodun DRY prensibine uymasını sağlar, Multiple, Multilevel, Hiyerarşik Inheritance türleri vardır.
+   - Multiple kalıtım birden fazla sınıftan miras almaktır, buna izin veren diller C++, Python, Kotlin, Ruby ve Rust'dır.
+   - Multilevel Inheritance bir sınıfın hem bir üst sınıfının hem de bir alt sınıfının olmasıdır.
+   - Hiyerarşik Inheritance bir sınıfın birden fazla sınıfa ayrı ayrı miras vermesidir.
+   - Encapsulation, sınıfın içeriğini dış dünyadan gizlemeyi ve erişimini kontrol etmeyi hedefler.
+   - Bunu gerçekleştirmek için private erişim belirteci ve getter-setter property'ler kullanılabilir.
+   - Abstraction, gerekli olmayan özellik ve metotların, yazılım geliştiricinin gözünün önünde bulunmamasını hedefler.
+   - Bunu soyut sınıflar ve arayüzlerle gerçekleştirmek mümkündür.
+   Örnek kullanım:
+   public class KatılımBankası: Banka { ... }             // Inheritance
+   ...
+   public class KatılımBankası          
+   {
+        private int TCKimlik;
+        public int TCKimlik                                // Encapsulation
+        {
+             get
+             {
+                  return TCKimlik;
+             }
+             set
+             {
+                  TCKimlik = value;
+             }
+        }
+   }
+   ...
 
 <br></br>
 ## 14- Bubble Sort algoritması nasıl çalışır, karmaşıklık seviyesi nedir, nasıl uygulanır?
