@@ -1,9 +1,9 @@
 # Egecan Çelik Evgin
 
 
-## Toplam Çalışma Saati:               376 Saat
+## Toplam Çalışma Saati:               377 Saat
 
-## Uzmanlık Seviyesine Giden Yol:      %3.76
+## Uzmanlık Seviyesine Giden Yol:      %3.77
  
 
 ## Nizami Çalışma Kaydı:
