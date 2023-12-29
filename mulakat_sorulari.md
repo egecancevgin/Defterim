@@ -349,7 +349,7 @@
              Ör: background-color: linear-gradient(to right, red, green); ya da linear-gradient(90deg, rgb(...), rgb(...),..);
         `opacity`, transparanlık ve opaklık ayarlamaya yarar, ör: opacity: 0.5;, `rgba` ise `rgb()`'ye `alpha`'nın eklenmesidir.
              Ör: display: block; dersek bu öğe kendini tek satırda blok olarak tutar.
-        `box-shadow`, bir öğenin kutu modeline göre gölgesini eklemeye yarar, ör: box-shadow: 5px 5px grey;.
+        `box-shadow`, bir öğenin kutu modeline göre gölgesini eklemeye yarar, ör: box-shadow: 5px 5px 5px grey;.
         
         
 
