@@ -92,6 +92,8 @@
     25 Aralık 2023 Pazartesi:  5 saat
     26 Aralık 2023 Salı:       2 saat 
     27 Aralık 2023 Çarşamba:   3 saat
+    28 Aralık 2023 Perşembe:   3 saat 
+    29 Aralık 2023 Cuma:       3 saat 
 
 ## Beceriler:
     Yazılım Geliştirme
