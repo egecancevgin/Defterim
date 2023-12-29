@@ -347,6 +347,7 @@
              Ör: background-color: hsl(120, 100%, 50%);
         `linear-gradient()` fonksiyonu, bir elemanın arka planına lineer renk geçişi oluşturmak için kullanılır.
              Ör: background-color: linear-gradient(to right, red, green); ya da linear-gradient(90deg, rgb(...), rgb(...),..);
+        `opacity`, transparanlık ve opaklık ayarlamaya yarar, ör: opacity: 0.5;.
         
         
 
