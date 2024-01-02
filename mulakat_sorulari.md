@@ -944,3 +944,5 @@
             Ör: <div class="container" id="benimDiv"> <p>...</p> </div>.
         <article>, bir belgede bağımsız, tek bir içerik parçasını veya kompozisyonu ifade eden bir yapısal etikettir.
         `<hr>`, yatay bir çizgi çizen boşluk bırakır, `<br>` da bir boş satır bırakır.
+        `<select>` ve `<option>`, bir web formu içerisinde kullanıcının seçim yapmasını sağlarlar.
+             Ör: <select>  <option value="..."></option> ... </select>
