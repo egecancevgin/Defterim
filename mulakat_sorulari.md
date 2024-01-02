@@ -498,7 +498,7 @@
    - Java'da default hem sınıflarda hem üyelerde varsayılan belirteçtir, C++ dilinde ise hem sınıflar hem üyeler private'dır.
 
 <br></br>    
-## 8- Makine Öğrenimi Temel Aşamaları?
+## 8- Makine Öğrenimi Temel Aşamaları:
    
    - Representation, verilerin temsil edildiği ve makine öğrenimi modelinin oluşturulup bu temsille öğrendiği aşamadır.
    
@@ -830,7 +830,7 @@
    - Geliştirme, dağıtım ve ölçeklendirme genellikle bir birim halinde yapılır.
    - Büyüdükçe, geliştirme ve bakım zorlaşabilir, tek bir hata tüm uygulamayı etkileyebilir.
    - Yeniden kullanılabilirlik ve ölçeklenebilirlik konularında sınırlamalar olabilir.
-   - Mikroservis mimarisi, uygulamayı bağımsız hizmetlere bölerek, her bir hizmetin belirli bir işlevi ele almasını sağlar.
+   Mikroservis mimarisi, uygulamayı bağımsız hizmetlere bölerek, her bir hizmetin belirli bir işlevi ele almasını sağlar.
    - Bu hizmetler genellikle küçük, özerk ve bağımsız bir şekilde çalışabilir.
    - Hizmetler genellikle farklı veritabanlarına ve dil/teknoloji yığınlarına sahip olabilir.
    - Her bir hizmet bağımsız olarak geliştirilebilir, dağıtılabilir ve ölçeklenebilir.
@@ -839,19 +839,21 @@
    - Monolitikler genellikle tek bir sunucu üzerinde çalışırken, Mikroservisler farklı sunucularda çalışabilir.
    - Mikroservisler arasında iletişim kurmak için `message broker`'lar kullanılabilir, ör: RabbitMQ, Redis, Kafka.
    - Mikroservis uygulamalarında hizmetler genellikle çoklu örneklerde çalıştığı için yük dengelemeye ihtiyaç duyulur.
-   - Service Oriented Architecture, bir uygulamanın bağımsız servisler ile çalışmasıdır ve bunlar aralarında iletişim kurar.
-   - Serverless Mimari, altyapının yönetimini geliştiriciden uzaklaştıran ve sadece işlevselliğe odakladığı yaklaşımdır.
-   - Event-Driven mimari, olayların gerçekleşmesine dayalı olarak sistemlerin tepki verdiği bir yaklaşımdır.
+   Service Oriented Architecture, bir uygulamanın bağımsız servisler ile çalışmasıdır ve bunlar aralarında iletişim kurar.
+   
+   Serverless Mimari, altyapının yönetimini geliştiriciden uzaklaştıran ve sadece işlevselliğe odakladığı yaklaşımdır.
+   
+   Event-Driven mimari, olayların gerçekleşmesine dayalı olarak sistemlerin tepki verdiği bir yaklaşımdır.
 
 <br></br>
 ## 22- `Kuyruk`, `Yığın` ve `Bağlı Liste` Veri Yapıları:
    - Kuyruk, FIFO prensibine dayanır, `Breadth First Search` içerisinde kullanılabilir, yani seviye seviye aramadır.
    - Basit, dairesel, öncelikli kuyruk gibi türleri, `Enqueue()-Dequeue()-Front()-Rear()-IsFull()` gibi metotları vardır. 
-   Yığın, LIFO prensibine dayanır, `Depth First Search` içerisinde kullanılabilir, yani bir yol seç bitene kadar devam.
-   Yığının `Push()-Pop()-Peek()-IsEmpty()-Size()` gibi metotları vardır.
-   Bağlı Listeler, dinamik veri yapılarıdır, düğümlerden oluşurlar ve ilk düğüm `head` işaretçisi ile gösterilir.
-   Her düğüm, bir sonraki düğümün bellek adresini içeren bir referansa sahiptir ve bir de değer saklar.
-   Tek yönlü, çift yönlü ve dairesel olmak üzere üç türde incelenebilirler.
+   - Yığın, LIFO prensibine dayanır, `Depth First Search` içerisinde kullanılabilir, yani bir yol seç bitene kadar devam.
+   - Yığının `Push()-Pop()-Peek()-IsEmpty()-Size()` gibi metotları vardır.
+   - Bağlı Listeler, dinamik veri yapılarıdır, düğümlerden oluşurlar ve ilk düğüm `head` işaretçisi ile gösterilir.
+   - Her düğüm, bir sonraki düğümün bellek adresini içeren bir referansa sahiptir ve bir de değer saklar.
+   - Tek yönlü, çift yönlü ve dairesel olmak üzere üç türde incelenebilirler.
    Örnek bağlı liste:
    ``` cs
    public class LinkedList
@@ -871,17 +873,17 @@
    ```
 <br></br>
 ## 23- T-SQL'de Şart Blokları, Döngüler, Trigger ve Index Kavramları:
-   Şart blokları, belirli bir koşulu kontrol etmek için kullanılır ör: `IF`, `CASE-WHEN` ve `IIF`.
-   `IF` sadece işlemler içerisinde kullanılırken, `CASE-WHEN` sorgu içinde, IIF de sorgularda tek koşulla çalışır.
-   Döngüler, bir işlemin birden fazla çalışmasını sağlar, `WHILE`-`GO` komutları kullanılır.
-   Trigger, veritabanı tablosunda bir işlem gerçekleştiğinde başka bir işlemin gerçekleşmesi durumudur.
-   Bu işlemler `INSERT-UPDATE-DELETE` gibi DML işlemleridir.
-   Trigger içerisinde sanal olarak oluşan Inserted ve Deleted tabloları vardır.
-   Inserted tablosu yeni eklenen ya da güncellenen kaydın yeni değerini tutar, deleted tablosu da silineni tutar.
-   Index, bizim belirlediğimiz sütunlara göre sıralı şekilde saklanmasını sağlayan ve sorgu hızı arttıran nesnedir.
-   Table scan, bir tablo içerisindeki minik sayfaların rastgele incelenmesidir, tabloda birincil anahtar yoksa yapılır.
-   Clustered Index, bir tabloda birincil anahtar varsa o otomatik olarak bir indeks olur ve sıralama yapılır.
-   Non-Clustered Index, belli sütunların bir kopyasının sıralı bir şekilde tutulmasına denir, birden fazla eklenebilir.
+   - Şart blokları, belirli bir koşulu kontrol etmek için kullanılır ör: `IF`, `CASE-WHEN` ve `IIF`.
+   - `IF` sadece işlemler içerisinde kullanılırken, `CASE-WHEN` sorgu içinde, IIF de sorgularda tek koşulla çalışır.
+   - Döngüler, bir işlemin birden fazla çalışmasını sağlar, `WHILE`-`GO` komutları kullanılır.
+   - Trigger, veritabanı tablosunda bir işlem gerçekleştiğinde başka bir işlemin gerçekleşmesi durumudur.
+   - Bu işlemler `INSERT-UPDATE-DELETE` gibi DML işlemleridir.
+   - Trigger içerisinde sanal olarak oluşan Inserted ve Deleted tabloları vardır.
+   - Inserted tablosu yeni eklenen ya da güncellenen kaydın yeni değerini tutar, deleted tablosu da silineni tutar.
+   - Index, bizim belirlediğimiz sütunlara göre sıralı şekilde saklanmasını sağlayan ve sorgu hızı arttıran nesnedir.
+   - Table scan, bir tablo içerisindeki minik sayfaların rastgele incelenmesidir, tabloda birincil anahtar yoksa yapılır.
+   - Clustered Index, bir tabloda birincil anahtar varsa o otomatik olarak bir indeks olur ve sıralama yapılır.
+   - Non-Clustered Index, belli sütunların bir kopyasının sıralı bir şekilde tutulmasına denir, birden fazla eklenebilir.
    Örnek kullanımlar:
    ``` sql
    IF @EXAMRESULT>60
@@ -924,37 +926,36 @@
    - HyperText Markup Language, web sayfalarının yapısal içeriğini tanımlayan bir işaretleme dilidir. 
    - Etiketler ve bunların içerisinde attribute'lar bulunur, etiketler genellikle <tag> ... </tag> şeklinde kullanılır.
    ``` html
-   <!DOCTYPE HTML> <!-- HTML belgesinin hangi sürümünü ve standartlarını kullanacağını belirten doküman türü tanımıdır. -->
-   <html>, HTML belgesinin başlangıcını belirten temel etikettir, ör: <html lang="en">.
-        <head>, HTML belgesinde başlık, meta bilgiler, stil tanımları, bağlantılar ve diğer önemsiz içerikleri içerir.
-        <body>, kullanıcı tarafından görülebilen tüm içerik, metinler, resimler, bağlantılar, tablolar ve formlar buradadır.
-        <style>, CSS kurallarını tanımlamak için kullanılan yapısal etikettir, ör: <style> h1 { text-align: center; } </style>.
-        <link>, belge içinde harici bir kaynağa bağlantı yapmak için kullanılır, ör: <link rel="stylesheet" href=styles.css>.
-        <meta>, belgenin karakter seti, dil, tarayıcı uyumluluğu ve diğer meta bilgileri içerir, ör: <meta charset="UTF-8">.
-        <h>, başlık elementlerini belirtmek için kullanılır, <h1> en yüksek düzeyi belirtirken <h6> en düşüğü belirtir.
-        <p>, paragraf elementini belirtmek için kullanılır, metin içeriğini paragraflara böler.
-        <!--  ...  -->, arasına yazılan metin HTML belgesinde yorum satırı olarak kabul edilir.
-        <main>, HTML belgesinde ana içerik bölümünü tanımlar, genellikle bir sayfa içerisinde yalnızca bir tane bulunur. 
-        <img src="..." alt="...">, HTML belgelerinde resimleri göstermek için kullanılır.
-        <a href="...">Bağlantı Metni</a>, anchor etiketi HTML belgelerinde bağlantılar oluşturmak için kullanılır.
-        <section>, sayfanın belli bir bölümünü temsil edip gruplandırmaya yarar.
-        <ul>, HTML belgelerinde sırasız liste oluşturmak için kullanılır, içerisine <li>...</li> maddeleri koyulabilir.
-        <figure>, HTML belgelerinde bir resim, grafik, çizelge gibi içerikleri gruplamak için kullanılır.
-            <figcaption>, genellikle <figure> içerisinde kullanılır ve bu medyanın açıklamasını temsil eder.
-        <em>, HTML belgelerinde metin içinde vurgulanmış bir kısmı temsil etmek için kullanılan içeriksel bir etikettir.
-        <ol>, sıralı listeyi temsil eder, yine içerisinde <li> maddeleri kullanılır ve bu sefer numaralandırılmışlardır.
-        <strong>, HTML belgelerinde metin içinde önemli veya güçlü vurgulanmış kısmı temsil eder.
-        <form>, kullanıcıdan bilgi toplamak veya belirli bir eylemi gerçekleştirme olanağı tanımak için kullanılır.
-            `action` attribute, form verisinin nereye gönderileceğini belirtir, ör: <form action="..."></form>
-            <input>, veri girişi alır, <input type="text(or radio)" name="user" id="..." placeholder="Hey" required>.
-            <button>, form içerisinde tıklanabilir görevi görür, ör: <button type="submit">Gönder</button>.
-            <fieldset>, benzer form elemanlarını bir araya getirmek için kullanılır, ör: <fieldset> <legend>..</fieldset>.
-        <footer>, HTML belgelerinde sayfanın alt kısmında bulunan bir altbilgi etiketidir.
-        <div>, belirli bir bölgenin içeriğini gruplamak ve stil uygulamak için kullanılır, içindeki `class` ile kullanılır. 
-            Ör: <div class="container" id="benimDiv"> <p>...</p> </div>.
-        <article>, bir belgede bağımsız, tek bir içerik parçasını veya kompozisyonu ifade eden bir yapısal etikettir.
-        `<hr>`, yatay bir çizgi çizen boşluk bırakır, `<br>` da bir boş satır bırakır.
-        `<select>` ve `<option>`, bir web formu içerisinde kullanıcının seçim yapmasını sağlarlar.
-             Ör: <select>  <option value="..."></option> ... </select>.
-        `<textarea>`, birden çok satırdan oluşan metinlerin girişi için kullanılan form elemanıdır, ör: <textarea>...</.>.
+   <!DOCTYPE HTML> <!-- HTML belgesinin hangi sürüm ve standartları kullanacağını belirten doküman türü tanımı -->
+   <html>          <!-- HTML belgesinin başlangıcını belirten temel etikettir, ör: <html lang="en"> -->
+   <head>          <!-- Belgede başlık, meta bilgiler, stil tanımları, bağlantılar ve diğer önemsiz içerikler -->
+   <body>          <!-- Kullanıcı tarafından görülebilen tüm içerik, metin, resim, bağlantı, tablo ve formlar -->
+   <style>         <!-- CSS kurallarını tanımlar, ör: <style> h1 { text-align: center; } </style> -->
+   <link>          <!-- Belge içinde harici bir kaynağa bağlantı, ör: <link rel="stylesheet" href=styles.css> -->
+   <meta>          <!-- Belgenin karakter seti, dil, tarayıcı uyumluluğu vb. içerir, ör: <meta charset="UTF-8"> -->
+   <h>             <!-- Başlık elemanları belirtir, <h1> en yüksek düzeyi belirtirken <h6> en düşüğü belirtir -->
+   <p>             <!-- Paragraf belirtmek için kullanılır, metin içeriğini paragraflara böler -->
+   <main>          <!-- Belgede ana içerik bölümünü tanımlar, genellikle bir sayfada yalnızca bir tane bulunur --> 
+   <img>           <!-- HTML belgelerinde resimleri göstermek için kullanılır, ör: <img src="..." alt="..."> -->
+   <a>             <!-- Anchor etiketi HTML belgelerinde bağlantı oluşturur, ör: a href="...">Bağlantı Metni</a> -->
+   <section>, sayfanın belli bir bölümünü temsil edip gruplandırmaya yarar -->
+   <ul>, HTML belgelerinde sırasız liste oluşturmak için kullanılır, içerisine <li>...</li> maddeleri koyulabilir -->
+   <figure>, HTML belgelerinde bir resim, grafik, çizelge gibi içerikleri gruplamak için kullanılır -->
+   <figcaption>, genellikle <figure> içerisinde kullanılır ve bu medyanın açıklamasını temsil eder -->
+   <em>, HTML belgelerinde metin içinde vurgulanmış bir kısmı temsil etmek için kullanılan içeriksel bir etikettir -->
+   <ol>, sıralı listeyi temsil eder, yine içerisinde <li> maddeleri kullanılır ve bu sefer numaralandırılmışlardır -->
+   <strong>, HTML belgelerinde metin içinde önemli veya güçlü vurgulanmış kısmı temsil eder -->
+   <form>, kullanıcıdan bilgi toplamak veya belirli bir eylemi gerçekleştirme olanağı tanımak için kullanılır -->
+   `action` attribute, form verisinin nereye gönderileceğini belirtir, ör: <form action="..."></form> -->
+   <input>, veri girişi alır, <input type="text(or radio)" name="user" id="..." placeholder="Hey" required> -->
+   <button>, form içerisinde tıklanabilir görevi görür, ör: <button type="submit">Gönder</button> -->
+   <fieldset>, benzer form elemanlarını bir araya getirmek için kullanılır, ör: <fieldset> <legend>..</fieldset> -->
+   <footer>, HTML belgelerinde sayfanın alt kısmında bulunan bir altbilgi etiketidir -->
+   <div>, belirli bir bölgenin içeriğini gruplamak ve stil uygulamak için kullanılır, içindeki `class` ile kullanılır --> 
+   Ör: <div class="container" id="benimDiv"> <p>...</p> </div> -->
+   <article>, bir belgede bağımsız, tek bir içerik parçasını veya kompozisyonu ifade eden bir yapısal etikettir -->
+   <hr>, yatay bir çizgi çizen boşluk bırakır, `<br>` da bir boş satır bırakır -->
+   <select> ve `<option>`, bir web formu içerisinde kullanıcının seçim yapmasını sağlarlar -->
+   Ör: <select>  <option value="..."></option> ... </select> -->
+   <textarea>, birden çok satırdan oluşan metinlerin girişi için kullanılan form elemanıdır, ör: <textarea>...</.> -->
 
