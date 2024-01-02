@@ -1,7 +1,7 @@
 # Egecan Çelik Evgin
 
 
-## Toplam Çalışma Saati:               381 Saat
+## Toplam Çalışma Saati:               38 Saat
 
 ## Uzmanlık Seviyesine Giden Yol:      %3.81
  
