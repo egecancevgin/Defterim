@@ -353,11 +353,11 @@
              Ör: display: block; dersek bu öğe kendini tek satırda blok olarak tutar.
         `box-shadow`, bir öğenin kutu modeline göre gölgesini eklemeye yarar, ör: box-shadow: 5px 5px 5px grey;.
         
-        
-        
-
+       
     32- Bash nedir?
+    
     33- Binary Search Tree nedir?   
+    
     34- Cyclomatic Complexity nedir?
         Anlaşılması zor mu değil mi onu ölçmeye yarar, VS'da `Analyze` kısmına tıklayarak kodun analizini çalıştırabiliriz.
         Visutin programı graf oluşturmaya yarayabilir, CFG oluşturmaya, yine VS'da calculate code metrics ile CC'ye bakarız.
@@ -365,7 +365,15 @@
         'if'lerin sayısı `n` ise 2^n tane gidilebilecek graf yolu vardır.
         Bypass Testing, orphan page testi yapılır, hyperlink'lerin fare işaretçi değişimine bakılabilmesi lazım.
         Responsiveness testing ile bir sürü aygıt için grafik testi yapılabilir.
-    35- Programlamada işaretçiler, adresler, 
+        
+    35- Programlamada işaretçi, adres ve bitwise operatörleri nelerdir, nasıl çalışırlar?
+        Fiziksel Adres,
+        Sanal Adres,
+        `*`
+        `&`
+        `&`, bitwise OR işlemi,
+        `<<`,
+        `>>`, 
 
 
 
