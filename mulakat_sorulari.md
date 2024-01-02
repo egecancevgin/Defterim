@@ -1,9 +1,9 @@
 # Egecan Çelik Evgin
 
 
-## Toplam Çalışma Saati:               380 Saat
+## Toplam Çalışma Saati:               381 Saat
 
-## Uzmanlık Seviyesine Giden Yol:      %3.8
+## Uzmanlık Seviyesine Giden Yol:      %3.81
  
 
 ## Nizami Çalışma Kaydı:
@@ -450,10 +450,10 @@
    
    Örnek kullanımı:
    ``` cs
-     public abstract class Banka
-     {
-          public abstract void ParaTransferi();
-     }
+   public abstract class Banka
+   {
+        public abstract void ParaTransferi();
+   }
    ```
 
 <br></br>
@@ -612,6 +612,7 @@
    - Abstraction, gerekli olmayan özellik ve metotların, yazılım geliştiricinin gözünün önünde bulunmamasını hedefler.
    - Bunu soyut sınıflar ve arayüzlerle gerçekleştirmek mümkündür.
    Örnek kullanım:
+   ``` cs
    public class KatılımBankası: Banka { ... }             // Inheritance
    ...
    public class KatılımBankası          
@@ -630,6 +631,7 @@
         }
    }
    ...
+   ```
 
 <br></br>
 ## 14- `Bubble Sort` Algoritması:
@@ -713,23 +715,23 @@
    - İşlem ağacındaki değişiklikler bir sürüm olarak ´commit´ edilerek kaydedilir.
    Örnek Git komutları:
    ``` sh
-   git init                  // Yeni bir repository oluşturur.
-   git clone <URL>           // Uzak bir repoyu kopyalar ve yerel bir kopya oluşturur.
-   git add <dosya>           // İşlem ağacına belirli dosya ekler, bunun bir sonraki commit'e dahil edilmesini sağlar.
-   git commit -m "Açıklama"  // Staging area'daki değişiklikleri bir sürüm olarak kaydeder ve açıklama ekler.
-   git status                // Staging area ve repo durumunu gösterir, hangi dosyaların değiştirildiğini, ağacı gösterir. 
-   git log:                  // Sürüm geçiş geçmişini gösterir, her commit'in kimlik no, yazarı, tarihi ve açıklamasını içerir.
-   git branch                // Mevcut dalları ve hangi dalda olduğumuzu görüntüler.
-   git checkout <dal>        // Belirli bir dala geçiş yapar veya belirli bir sürüme geri döner.
-   git pull                  // Uzak bir depodan son değişiklikleri alır ve yerel kopyayı günceller.
-   git push:                 // Yerel depodaki değişiklikleri uzak depoya gönderir.
-   git merge <dal>           // Belirli bir dalı main'e birleştirme işlemi gerçekleştirir.
-   git fetch                 // Uzak bir repodan değişiklikleri alır ancak yerel kopyayı güncellemez, değişiklikleri gösterir.
-   git stash                 // Geçici olarak çalışılan ancak henüz tamamlanmayan değişikliklerin saklanmasını sağlar.
-   git cherry pick           // Belirli bir commit'in değişikliklerini başka bir branch'e uygulamak için kullanılır.
-   git tag                   // Bir commit'e yapılan adlandırılmadır, git log ise commit durumlarını gözlemlemek için kullanılır.
-   git rebase                // Mevcut branch'teki commit geçmişini, belirtilen <base> branch veya commit üzerine uygular.
-   git switch                // Belirli bir branch'i seçmek veya başka bir branch arasında geçiş yapmak için kullanılır.
+   $ git init                  # Yeni bir repository oluşturur.
+   $ git clone <URL>           # Uzak bir repoyu kopyalar ve yerel bir kopya oluşturur.
+   $ git add <dosya>           # İşlem ağacına belirli dosya ekler, bunun bir sonraki commit'e dahil edilmesini sağlar.
+   $ git commit -m "Açıklama"  # Staging area'daki değişiklikleri bir sürüm olarak kaydeder ve açıklama ekler.
+   $ git status                # Staging area ve repo durumunu gösterir, hangi dosyaların değiştirildiğini, ağacı gösterir. 
+   $ git log                   # Sürüm geçiş geçmişini gösterir, her commit'in kimlik no, yazarı, tarihi ve açıklamasını içerir.
+   $ git branch                # Mevcut dalları ve hangi dalda olduğumuzu görüntüler.
+   $ git checkout <dal>        # Belirli bir dala geçiş yapar veya belirli bir sürüme geri döner.
+   $ git pull                  # Uzak bir depodan son değişiklikleri alır ve yerel kopyayı günceller.
+   $ git push                  # Yerel depodaki değişiklikleri uzak depoya gönderir.
+   $ git merge <dal>           # Belirli bir dalı main'e birleştirme işlemi gerçekleştirir.
+   $ git fetch                 # Uzak bir repodan değişiklikleri alır ancak yerel kopyayı güncellemez, değişiklikleri gösterir.
+   $ git stash                 # Geçici olarak çalışılan ancak henüz tamamlanmayan değişikliklerin saklanmasını sağlar.
+   $ git cherry pick           # Belirli bir commit'in değişikliklerini başka bir branch'e uygulamak için kullanılır.
+   $ git tag                   # Bir commit'e yapılan adlandırılma, git log ise commit durumlarını gözlemlemek için kullanılır.
+   $ git rebase                # Mevcut branch'teki commit geçmişini, belirtilen <base> branch veya commit üzerine uygular.
+   $ git switch                # Belirli bir branch'i seçmek veya başka bir branch arasında geçiş yapmak için kullanılır.
    ```
 
 <br></br>
@@ -772,16 +774,16 @@
    - Docker Compose, birden çok konteyneri ve bunların konfigürasyonlarını tek bir dosyada yönetmeye olanak tanır.  
    Örnek CLI Komutları:
    ``` sh
-   docker images komut satırı, sistemde bulunan Docker imajlarını ve bunların özelliklerini listeler.
-   docker ps, sistemde çalışan Docker konteynerlarını ve bunların temel bilgilerini gösterir, -a ile inaktifleri de.
-   docker pull redis:6.0.10, Docker Hub'dan belirtilen imajı çeker.
-   docker login, Docker Hub hesabına giriş yapar.
-   docker push egecancevgin/ege.ai:latest, oluşturulan imajı Docker Hub'a iter.
-   docker run -p 8080:80 elasticsearch, bir konteyner başlatır, 8080 portunu host makinenin 80 portuna yönlendirir.
-   docker stop 9876543210ab, belirli bir konteyneri durdurur.
-   docker logs 9876543210ab, belirli bir konteynerin günlük çıktılarını görüntüler.
-   docker build -t my_web_app:1.0 . Dockerfile kullanarak bir Docker imajı oluşturur ve etiketler.
-   docker-compose up, Compose kullanarak birden fazla konteyneri başlatır, `docker-compose.yml` dosyasını kullanır.
+   $ docker images                            # Sistemde bulunan Docker imajlarını ve bunların özelliklerini listeler
+   $ docker ps                                # Çalışan konteynerleri gösterir, -a ile inaktifleri de
+   $ docker pull redis:6.0.10                 # Docker Hub'dan belirtilen imajı çeker
+   $ docker login                             # Docker Hub hesabına giriş yapar
+   $ docker push egecancevgin/ege.ai:latest   # Oluşturulan imajı Docker Hub'a iter
+   $ docker run -p 8080:80 elasticsearch      # Bir konteyner başlatır, 8080 portunu host makinenin 80 portuna yönlendirir
+   $ docker stop 9876543210ab                 # Belirli bir konteyneri durdurur.
+   $ docker logs 9876543210ab                 # Belirli bir konteynerin günlük çıktılarını görüntüler.
+   $ docker build -t my_web_app:1.0 .         # Dockerfile kullanarak bir Docker imajı oluşturur ve etiketler.
+   $ docker-compose up                        # Birden fazla konteyner başlatır, `docker-compose.yml` dosyasını kullanır
    ```
    Örnek Dockerfile:
    ``` Dockerfile
@@ -828,7 +830,7 @@
    - Geliştirme, dağıtım ve ölçeklendirme genellikle bir birim halinde yapılır.
    - Büyüdükçe, geliştirme ve bakım zorlaşabilir, tek bir hata tüm uygulamayı etkileyebilir.
    - Yeniden kullanılabilirlik ve ölçeklenebilirlik konularında sınırlamalar olabilir.
-   Mikroservis mimarisi, uygulamayı bağımsız hizmetlere bölerek, her bir hizmetin belirli bir işlevi ele almasını sağlar.
+   - Mikroservis mimarisi, uygulamayı bağımsız hizmetlere bölerek, her bir hizmetin belirli bir işlevi ele almasını sağlar.
    - Bu hizmetler genellikle küçük, özerk ve bağımsız bir şekilde çalışabilir.
    - Hizmetler genellikle farklı veritabanlarına ve dil/teknoloji yığınlarına sahip olabilir.
    - Her bir hizmet bağımsız olarak geliştirilebilir, dağıtılabilir ve ölçeklenebilir.
@@ -843,83 +845,87 @@
 
 <br></br>
 ## 22- `Kuyruk`, `Yığın` ve `Bağlı Liste` Veri Yapıları:
-        Kuyruk, FIFO prensibine dayanır, `Breadth First Search` içerisinde kullanılabilir, yani seviye seviye aramadır.
-        Basit, dairesel, öncelikli kuyruk gibi türleri, `Enqueue()-Dequeue()-Front()-Rear()-IsFull()` gibi metotları vardır. 
-        Yığın, LIFO prensibine dayanır, `Depth First Search` içerisinde kullanılabilir, yani bir yol seç bitene kadar devam.
-        Yığının `Push()-Pop()-Peek()-IsEmpty()-Size()` gibi metotları vardır.
-        Bağlı Listeler, dinamik veri yapılarıdır, düğümlerden oluşurlar ve ilk düğüm `head` işaretçisi ile gösterilir.
-        Her düğüm, bir sonraki düğümün bellek adresini içeren bir referansa sahiptir ve bir de değer saklar.
-        Tek yönlü, çift yönlü ve dairesel olmak üzere üç türde incelenebilirler.
-        Örnek bağlı liste:
-            public class LinkedList
-            {
-                Node head;
-                public class Node
-                {
-                    public int Value;
-                    public Node Next;
-                    public Node(int d)
-                    {
-                        Value = d;
-                        Next = null;
-                    }
-                }
+   - Kuyruk, FIFO prensibine dayanır, `Breadth First Search` içerisinde kullanılabilir, yani seviye seviye aramadır.
+   - Basit, dairesel, öncelikli kuyruk gibi türleri, `Enqueue()-Dequeue()-Front()-Rear()-IsFull()` gibi metotları vardır. 
+   Yığın, LIFO prensibine dayanır, `Depth First Search` içerisinde kullanılabilir, yani bir yol seç bitene kadar devam.
+   Yığının `Push()-Pop()-Peek()-IsEmpty()-Size()` gibi metotları vardır.
+   Bağlı Listeler, dinamik veri yapılarıdır, düğümlerden oluşurlar ve ilk düğüm `head` işaretçisi ile gösterilir.
+   Her düğüm, bir sonraki düğümün bellek adresini içeren bir referansa sahiptir ve bir de değer saklar.
+   Tek yönlü, çift yönlü ve dairesel olmak üzere üç türde incelenebilirler.
+   Örnek bağlı liste:
+   ``` cs
+   public class LinkedList
+   {
+       Node head;
+       public class Node
+       {
+           public int Value;
+           public Node Next;
+           public Node(int d)
+           {
+               Value = d;
+               Next = null;
             }
-
+        }
+   }
+   ```
 <br></br>
 ## 23- T-SQL'de Şart Blokları, Döngüler, Trigger ve Index Kavramları:
-        Şart blokları, belirli bir koşulu kontrol etmek için kullanılır ör: `IF`, `CASE-WHEN` ve `IIF`.
-        `IF` sadece işlemler içerisinde kullanılırken, `CASE-WHEN` sorgu içinde, IIF de sorgularda tek koşulla çalışır.
-        Döngüler, bir işlemin birden fazla çalışmasını sağlar, `WHILE`-`GO` komutları kullanılır.
-        Trigger, veritabanı tablosunda bir işlem gerçekleştiğinde başka bir işlemin gerçekleşmesi durumudur.
-            Bu işlemler `INSERT-UPDATE-DELETE` gibi DML işlemleridir.
-            Trigger içerisinde sanal olarak oluşan Inserted ve Deleted tabloları vardır.
-            Inserted tablosu yeni eklenen ya da güncellenen kaydın yeni değerini tutar, deleted tablosu da silineni tutar.
-        Index, bizim belirlediğimiz sütunlara göre sıralı şekilde saklanmasını sağlayan ve sorgu hızı arttıran nesnedir.
-        Table scan, bir tablo içerisindeki minik sayfaların rastgele incelenmesidir, tabloda birincil anahtar yoksa yapılır.
-        Clustered Index, bir tabloda birincil anahtar varsa o otomatik olarak bir indeks olur ve sıralama yapılır.
-        Non-Clustered Index, belli sütunların bir kopyasının sıralı bir şekilde tutulmasına denir, birden fazla eklenebilir.
-        Örnek kullanımlar:
-            IF @EXAMRESULT>60
-                SET @STATUS='BAŞARILI'
-            ELSE
-                SET @STATUS='BAŞARISIZ'
-            ...
-            SELECT 
-            CASE 
-                WHEN AGE<35 THEN 'GENÇ'
-                WHEN AGE ...
-            END AS AGEGROUP, *
-            ...
-            SELECT
-            IIF(GENDER='E', 'ERKEK', 'KADIN') AS GENDEREXP,
-            * FROM CUSTOMERS
-            ...
-            DECLARE @I AS INT=0
-            WHILE @I<10
-            BEGIN
-                ...
-                SET @I=@I+1
-            END
-            ...
-            CREATE TRIGGER TRGCUSTOMERINSERT
-            ON CUSTOMERS 
-            AFTER INSERT 
-            AS 
-            BEGIN 
-            ...
-            END
-            ...
-            CREATE INDEX IX1 ON CUSTOMERS 
-            (NAMESURNAME)
-            ...
+   Şart blokları, belirli bir koşulu kontrol etmek için kullanılır ör: `IF`, `CASE-WHEN` ve `IIF`.
+   `IF` sadece işlemler içerisinde kullanılırken, `CASE-WHEN` sorgu içinde, IIF de sorgularda tek koşulla çalışır.
+   Döngüler, bir işlemin birden fazla çalışmasını sağlar, `WHILE`-`GO` komutları kullanılır.
+   Trigger, veritabanı tablosunda bir işlem gerçekleştiğinde başka bir işlemin gerçekleşmesi durumudur.
+   Bu işlemler `INSERT-UPDATE-DELETE` gibi DML işlemleridir.
+   Trigger içerisinde sanal olarak oluşan Inserted ve Deleted tabloları vardır.
+   Inserted tablosu yeni eklenen ya da güncellenen kaydın yeni değerini tutar, deleted tablosu da silineni tutar.
+   Index, bizim belirlediğimiz sütunlara göre sıralı şekilde saklanmasını sağlayan ve sorgu hızı arttıran nesnedir.
+   Table scan, bir tablo içerisindeki minik sayfaların rastgele incelenmesidir, tabloda birincil anahtar yoksa yapılır.
+   Clustered Index, bir tabloda birincil anahtar varsa o otomatik olarak bir indeks olur ve sıralama yapılır.
+   Non-Clustered Index, belli sütunların bir kopyasının sıralı bir şekilde tutulmasına denir, birden fazla eklenebilir.
+   Örnek kullanımlar:
+   ``` sql
+   IF @EXAMRESULT>60
+       SET @STATUS='BAŞARILI'
+   ELSE
+       SET @STATUS='BAŞARISIZ'
+   ...
+   SELECT 
+   CASE 
+       WHEN AGE<35 THEN 'GENÇ'
+       WHEN AGE ...
+   END AS AGEGROUP, *
+   ...
+   SELECT
+   IIF(GENDER='E', 'ERKEK', 'KADIN') AS GENDEREXP,
+   * FROM CUSTOMERS
+   ...
+   DECLARE @I AS INT=0
+   WHILE @I<10
+   BEGIN
+   ...
+   SET @I=@I+1
+   END
+   ...
+   CREATE TRIGGER TRGCUSTOMERINSERT
+   ON CUSTOMERS 
+   AFTER INSERT 
+   AS 
+   BEGIN 
+     ...
+   END
+   ...
+   CREATE INDEX IX1 ON CUSTOMERS 
+   (NAMESURNAME)
+   ...
+   ```
 
 <br></br>
 ## 24- `HTML`:
-        HyperText Markup Language, web sayfalarının yapısal içeriğini tanımlayan bir işaretleme dilidir. 
-        Etiketler ve bunların içerisinde attribute'lar bulunur, etiketler genellikle <tag> ... </tag> şeklinde kullanılır.
-        <!DOCTYPE HTML>, bir HTML belgesinin hangi sürümünü ve standartlarını kullanacağını belirten doküman türü tanımıdır.
-        <html>, HTML belgesinin başlangıcını belirten temel etikettir, ör: <html lang="en">.
+   - HyperText Markup Language, web sayfalarının yapısal içeriğini tanımlayan bir işaretleme dilidir. 
+   - Etiketler ve bunların içerisinde attribute'lar bulunur, etiketler genellikle <tag> ... </tag> şeklinde kullanılır.
+   ``` html
+   <!DOCTYPE HTML> <!-- HTML belgesinin hangi sürümünü ve standartlarını kullanacağını belirten doküman türü tanımıdır. -->
+   <html>, HTML belgesinin başlangıcını belirten temel etikettir, ör: <html lang="en">.
         <head>, HTML belgesinde başlık, meta bilgiler, stil tanımları, bağlantılar ve diğer önemsiz içerikleri içerir.
         <body>, kullanıcı tarafından görülebilen tüm içerik, metinler, resimler, bağlantılar, tablolar ve formlar buradadır.
         <style>, CSS kurallarını tanımlamak için kullanılan yapısal etikettir, ör: <style> h1 { text-align: center; } </style>.
@@ -951,3 +957,4 @@
         `<select>` ve `<option>`, bir web formu içerisinde kullanıcının seçim yapmasını sağlarlar.
              Ör: <select>  <option value="..."></option> ... </select>.
         `<textarea>`, birden çok satırdan oluşan metinlerin girişi için kullanılan form elemanıdır, ör: <textarea>...</.>.
+
