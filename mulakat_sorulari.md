@@ -382,7 +382,7 @@
 # Sözel Mülakat Soruları:
 <br></br>
 
-## 1- Yazılım Geliştirme Yaşam Döngüsü hangi aşamalardan oluşur ve bu aşamalarda neler yapılır?
+## 1- `Yazılım Geliştirme Yaşam Döngüsü`:
 
  - Planlama: Müşteri gereksinimleri, ihtiyaç analizi ve proje kapsamı bu aşamada yer alır.
    
@@ -397,7 +397,7 @@
  - Bakım: Yazılım kullanıldıkça oluşan hatalar düzeltilir, performans izleme ve müşteri destek hizmetleri sağlanır.
 
 <br></br>
-## 2- Nesne tabanlı programlamada Arayüz nedir ve nasıl uygulanır?
+## 2- Nesne tabanlı programlamada `Arayüzler`:
 
    - Arayüzler bir sınıfa belirli işlevleri kazandırmak için kullanılır, birden fazla arayüzden miras alınabilir.
    
@@ -416,7 +416,7 @@
    ```
 
 <br></br>
-## 3- İşletim sistemlerinde `TCP` ve `UDP` kavramları nelerdir, aralarındaki farklar nelerdir ve nerelerde kullanılırlar?
+## 3- İşletim sistemlerinde `TCP` ve `UDP` kavramları:
 
    - Transmission Control ve User Datagram Protocol, bilgisayar ağlarında veri iletişimini sağlayan iletişim protokolüdür.
 
@@ -433,7 +433,7 @@
    - UDP, çevrimiçi oyunlar, video konferansları, internet üzerinden sesli aramalar gibi alanlarda kullanılır. 
 
 <br></br>
-## 4- Nesne tabanlı programlamada SOLID prensipleri nelerdir, neden uygulanırlar?
+## 4- Nesne tabanlı programlamada `SOLID` prensipleri:
 
    - SOLID prensipleri, nesne tabanlı programlamada yazılım tasarımını daha sürdürülebilir ve bakımı kolay hale getirir.
 
@@ -448,7 +448,7 @@
    - Dependency Inversion, yüksek seviyeli modüllerin, düşük seviyeli modüllere bağımlılıklarının olmaması gerektiğini söyler.
 
 <br></br>
-## 5- Nesne tabanlı programlamada soyut sınıflar ve soyut üyeler nelerdir ve benzerlerinden nasıl ayrışırlar?
+## 5- Nesne tabanlı programlamada `Soyut Sınıflar`:
    
    - Soyut sınıflar, diğer sınıfların temelini oluşturan sınıflardır ve somut nesneler oluşturmak için kullanılamaz.
    
@@ -473,7 +473,7 @@
    ```
 
 <br></br>
-## 6- Yazılım Mühendisliğinde Scrum nedir, hangi alt kavramlardan oluşur ve nasıl uygulanır?
+## 6- Yazılım Mühendisliğinde `Scrum`:
    - Scrum, bir proje yönetimi çerçevesidir, esnek ve işbirlikçi bir yaklaşımı benimser.
  
    - Temel amacı değişen gereksinimlere daha iyi adapte olmak ve müşteri odaklı çalışmaktır.
@@ -495,7 +495,7 @@
    - Burn-Up Chart, sprintte tamamlanan iş miktarıdır, Hazır Tanımı da bir görevin ekip tarafından bakılmaya hazır olmasıdır.
 
 <br></br>
-## 7- Nesne Tabanlı Programlamada erişim belirteçleri nelerdir, ne işe yararlar ve dillere göre nasıl değişirler?
+## 7- Nesne Tabanlı Programlamada `Erişim Belirteçleri`:
    
    - Erişim belirteçleri, sınıf üyelerine ve sınıflara erişimi düzenler ve ilişkileri yönetir.
    
@@ -514,7 +514,7 @@
    - Java'da default hem sınıflarda hem üyelerde varsayılan belirteçtir, C++ dilinde ise hem sınıflar hem üyeler private'dır.
 
 <br></br>    
-## 8- Makine Öğrenimini üç ana aşamaya ayıracak olursak bu aşamalar neler olur ve bu aşamalarda neler yapılır?
+## 8- Makine Öğrenimi Temel Aşamaları?
    
    - Representation, verilerin temsil edildiği ve makine öğrenimi modelinin oluşturulup bu temsille öğrendiği aşamadır.
    
@@ -529,7 +529,7 @@
    - Hiperparametre ayarı, overfitting-underfitting tespiti, aktivasyon fonksiyonları, regularization yapılabilir.
 
 <br></br>
-## 9- Binary Search algoritması nasıl çalışır, karmaşıklık seviyesi nedir, normal arama algoritmalarından farkı nedir?
+## 9- `Binary Search` Algoritması:
    - İkili arama algoritması, decrease and conquer tasarım paradigmasına uyan bir arama algoritmasıdır.
    - Orijinalde sıralı olan bir dizi içerisinde belirli bir elemanı arar, diziyi her seferinde ikiye bölerek çalışır.
    - Lineer arama algoritmasının karmaşıklığı en kötü durumda O(n) iken, ikili arama algoritması bunu O(logn)'e düşürür.
@@ -552,7 +552,7 @@
    }
    ```
 <br></br>    
-## 10- Nesne tabanlı programlamada `Polimorfizm` kavramı nedir, nasıl uygulanır ve benzer kavramlardan nasıl ayrışır?
+## 10- Nesne tabanlı programlamada `Polimorfizm` kavramı:
    - Polimorfizm, farklı nesnelerin aynı şablonu kullanarak farklı şekillerde davranabilmesidir.
    - Derleme zamanı ve koşu zamanı polimorfizmi olarak ikiye ayrılır.
    - Derleme zamanı polimorfizmi aynı zamanda statik polimorfizm olarak da ifade edilir, overloading işlemidir.
@@ -569,7 +569,7 @@
    ```
 
 <br></br>    
-## 11- SQL dilinde `JOIN` kavramı nedir, türleri nelerdir ve nasıl uygulanır?
+## 11- SQL dilinde `JOIN` kavramı:
  
    - `JOIN`, verileri birden fazla tablodan çekmeye ve tablolar arasındaki ilişkileri kullanarak birleştirmeye yarar.
    - `INNER JOIN`, belirtilen iki tabloda eşleşen satırları getirir, yalnızca iki tablonun ortak satırlarını döndürür.
@@ -591,8 +591,9 @@
    SELECT Tablo1.Sutun1, Tablo2.Sutun2 FROM Tablo1 CROSS JOIN Tablo2;
    SELECT c1.Ad AS ClsnIsmi, c2.Isim AS YnticiIsmi FROM Calisanlar c1 LEFT JOIN Calisanlar c2 ON c1.YntID = c2.ClsID;
    ```
+
 <br></br>
-## 12- Makine Öğreniminde Lineer Regresyon ile Lojistik Regresyon algoritmaları nelerdir ve nasıl öğrenirler?
+## 12- Makine Öğreniminde `Lineer Regresyon` ile `Lojistik Regresyon` Algoritmaları:
    - Lineer Regresyon, bir dizi noktaya en uygun düz çizgiyi bulmak için kullanılır, sürekli değerleri tahmin eder.
    - Öğrenme denklemi: y' = b + w1x1 + w2x2 + ... + wnxn şeklindedir, b: bias, w: ağırlık, x: veri noktasıdır.
    - Loss, bir modelin bir örnekteki tahmininin hatasıdır ve tamamen doğru bir tahmin için sıfır değerini alır.
@@ -616,7 +617,7 @@
    ```
  
 <br></br>
-## 13- Nesne tabanlı programlamada Inheritance, Encapsulation, Abstraction kavramları nedir ve nasıl ayrışırlar?
+## 13- Nesne tabanlı programlamada `Inheritance`, `Encapsulation`, `Abstraction` kavramları:
    - Inheritance, bir sınıfın başka bir sınıftan özelliklerini ve davranışlarını devralmasını sağlar.
    - Kodun DRY prensibine uymasını sağlar, Multiple, Multilevel, Hiyerarşik Inheritance türleri vardır.
    - Multiple kalıtım birden fazla sınıftan miras almaktır, buna izin veren diller C++, Python, Kotlin, Ruby ve Rust'dır.
@@ -647,7 +648,7 @@
    ...
 
 <br></br>
-## 14- Bubble Sort algoritması nasıl çalışır, karmaşıklık seviyesi nedir, nasıl uygulanır?
+## 14- `Bubble Sort` Algoritması:
         Bubble Sort, bir diziyi sıralamak için bitişik elemanları karşılaştırarak gerektiğinde yer değiştirir.
         İç döngüde bir tur, en büyük elemanı bulup onu listenin en sonuna koymaya yarar.
         Her dış döngü turundan itibaren dizi daha da sıralanır.
@@ -676,7 +677,7 @@
             }
 
 <br></br>
-## 15- Yazılım Mühendisliğinde DevOps ve CI/CD kavramları nedir, aşamaları ve avantajları nelerdir?
+## 15- Yazılım Mühendisliğinde `DevOps` ile `CI/CD` Kavramları:
         DevOps, yazılım geliştirme ve IT operasyonları arasındaki işbirliği arttıran hızlı ve güvenilir bir yaklaşımdır.
         Plan, Code, Build, Test, Release, Deploy, Operate, Monitor şeklinde 8 adımdan oluşur.
         Release aşamasında onaylanmış ve test edilmiş yazılımın bir sürümü hazırlanır ve versiyon numarası eklenir.
@@ -691,7 +692,7 @@
         Sürekli Deployment aşamasında ise yazılım her değişiklik yapıldığında otomatik olarak canlı üretim ortamına dağıtılır.
 
 <br></br>
-## 16- T-SQL nedir, komutları kaça ayrılır ve ACID property'leri nelerdir?
+## 16- `T-SQL` ile `ACID`:
         Transact-SQL, Microsoft'un hazırladığı, Microsoft SQL Server'da kullanılan bir SQL türevidir.
         Transaction, SQL sorgularının ve komutlarının gruplandığı bir işlem birimidir.
         Bir transaction'un ya tamamı başarıyla gerçekleşir ya da hiçbir parçası gerçekleşmez.
@@ -714,7 +715,7 @@
             COMMIT TRANSACTION BankaUpdate;
 
 <br></br>
-## 17- Yazılım Mühendisliğinde versiyon kontrol sistemleri nedir, nasıl çalışır ve temel Git komutları nelerdir?
+## 17- Yazılım Mühendisliğinde `Versiyon Kontrol Sistemleri`:
         Versiyon kontrol sistemleri, yazılım geliştirme süreçlerinde kaynak kodunun yönetilmesini sağlayan bir araçtır.
         Merkezi ve Dağıtık versiyon kontrol sistemleri olarak iki ana kategoriye ayrılır.
         Merkesi VCS, merkezi bir sunucu üzerinde barındırılan bir repository kullanır, ör: Subversion.
@@ -743,7 +744,7 @@
             git switch: Belirli bir branch'i seçmek veya başka bir branch arasında geçiş yapmak için kullanılır.
 
 <br></br>
-## 18- Linux nedir, UNIX ile arasındaki fark nedir, mimarisinde neler vardır?
+## 18- `Linux` ile `UNIX`:
         Linux, özgür yazılım topluluğu tarafından geliştirilen açık kaynaklı bir işletim sistemi çekirdeğidir.
         GNU General Public License altında dağıtılır, örnek dağıtımları arasında Ubuntu, CentOS, Debian ve Fedora bulunur.
         Unix, AT&T Bell laboratuvarlarında geliştirilen ticari bir işletim sistemidir, ör: AIX, Solaris, HP-UX.
@@ -769,7 +770,7 @@
         /etc/shadow dosyası, şifrelenmiş parolaları ve güvenlikle ilgili diğer bilgileri içerir, root tarafından erişilebilir.
 
 <br></br>
-## 19- Containerization nedir, Docker nasıl çalışır ve mimarisinde neler vardır?
+## 19- `Containerization` ve `Docker`:
         Containerization, bir uygulama için gerekli olan tüm bağımlılıkları ve ortamı içeren izole paketler oluşturmaktır.
         Docker, uygulamaları, bağımlılıkları ve ortamı bir araya getirerek izole konteynerlar oluşturmayı sağlar.
         Bu konteynerler, Docker runtime üzerinde çalıştırılabilir ve birden çok ortamda tutarlı bir şekilde çalışabilir.
@@ -800,7 +801,7 @@
             CMD ["python", "app.py"]
 
 <br></br>
-## 20- NoSQL nedir, temel özellikleri nedir ve hangi DBMS'ler buna örnektir?
+## 20- Yazılım Mühendisliğinde `NoSQL`:
         Not Only SQL, ilişkisel olmayan büyük ve dağılmış veri setleri ile çalışmak üzere tasarlanmış veritabanı sistemleridir.
         Genellikler veritabanına veri eklerken veya çıkarırken bir şema tanımlamaya gerek yoktur.
         Veri seti büyüdükçe sistem performansını artırmak ve dağılmış ortamlarda çalışmak için yatay ölçeklenebilirlik sağlar.
@@ -828,7 +829,7 @@
             db.stats()
 
 <br></br>
-## 21- Yazılım Mühendisliğinde Mikroservisler, SOA, Monolitik Uygulamalar nelerdir ve benzer kavramlardan nasıl ayrışırlar?
+## 21- Yazılım Mühendisliğinde `Mikroservisler`, `SOA` ve `Monolitik Uygulamalar`:
         Monolitik uygulama, tek bir büyük bütünleşik kod tabanına sahip olan geleneksel bir uygulama mimarisidir.
             Geliştirme, dağıtım ve ölçeklendirme genellikle bir birim halinde yapılır.
             Büyüdükçe, geliştirme ve bakım zorlaşabilir, tek bir hata tüm uygulamayı etkileyebilir.
@@ -847,7 +848,7 @@
         Event-Driven mimari, olayların gerçekleşmesine dayalı olarak sistemlerin tepki verdiği bir yaklaşımdır.
 
 <br></br>
-## 22- Kuyruk, yığın ve bağlı liste veri yapıları arasındaki farklar nelerdir?
+## 22- `Kuyruk`, `Yığın` ve `Bağlı Liste` Veri Yapıları:
         Kuyruk, FIFO prensibine dayanır, `Breadth First Search` içerisinde kullanılabilir, yani seviye seviye aramadır.
         Basit, dairesel, öncelikli kuyruk gibi türleri, `Enqueue()-Dequeue()-Front()-Rear()-IsFull()` gibi metotları vardır. 
         Yığın, LIFO prensibine dayanır, `Depth First Search` içerisinde kullanılabilir, yani bir yol seç bitene kadar devam.
@@ -872,7 +873,7 @@
             }
 
 <br></br>
-## 23- T-SQL'de şart blokları, döngüler, trigger ve indeksler nelerdir, nasıl uygulanırlar?
+## 23- T-SQL'de Şart Blokları, Döngüler, Trigger ve Index Kavramları:
         Şart blokları, belirli bir koşulu kontrol etmek için kullanılır ör: `IF`, `CASE-WHEN` ve `IIF`.
         `IF` sadece işlemler içerisinde kullanılırken, `CASE-WHEN` sorgu içinde, IIF de sorgularda tek koşulla çalışır.
         Döngüler, bir işlemin birden fazla çalışmasını sağlar, `WHILE`-`GO` komutları kullanılır.
@@ -920,7 +921,7 @@
             ...
 
 <br></br>
-## 24- HTML nedir, temel kavramları ve bileşenleri nelerdir?
+## 24- `HTML`:
         HyperText Markup Language, web sayfalarının yapısal içeriğini tanımlayan bir işaretleme dilidir. 
         Etiketler ve bunların içerisinde attribute'lar bulunur, etiketler genellikle <tag> ... </tag> şeklinde kullanılır.
         <!DOCTYPE HTML>, bir HTML belgesinin hangi sürümünü ve standartlarını kullanacağını belirten doküman türü tanımıdır.
