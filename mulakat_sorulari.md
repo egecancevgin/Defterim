@@ -365,6 +365,7 @@
         'if'lerin sayısı `n` ise 2^n tane gidilebilecek graf yolu vardır.
         Bypass Testing, orphan page testi yapılır, hyperlink'lerin fare işaretçi değişimine bakılabilmesi lazım.
         Responsiveness testing ile bir sürü aygıt için grafik testi yapılabilir.
+    35- Programlamada işaretçiler, adresler, 
 
 
 
