@@ -215,11 +215,7 @@
     
     18- Docker yapısı VM farkı nedir?
         Hypervisor yerine OS ve Container Engine olur, container'lar ile çalışır yani OS'ten bağımsızdır.
-    
-    19- Monotlitik yapı ile mikroservis arasındaki fark nedir?
-        Monolitik her modülün birleşik olduğu tek, monolitikte değişim yapmak zordur, yeni teknoloji uygulayamaz, kolay dağıtım ve test.
-        Mikroservis karmaşıktır, orkestre etmek zordur, test etme zordur, observability zordur 
-    
+        
     20- Docker Image nedir?
         Container oluşturabildiğimiz şablon tar dosyası, uygulama ve bağımlılıklarını taşınabilir bir paket olarak taşır.
 
@@ -249,18 +245,9 @@
         Edge Coverage, yazılımın kontrol akışındaki her bir kenarın en az bir kez yürütüldüğünü doğrulamayı amaçlar.
         Edge Pair Coverage, programın kontrol akışındaki her bir kenar çiftinin en az bir kez yürütüldüğünü kontrol eder.
 
-    29- T-SQL:
+    29- T-SQL'de `VIEW`, `UDF` ve `SP` Kavramları:
         Değişkenler `DECLARE @SAYI AS INT` şeklinde tanımlanabilir ve `SET @SAYI = 15` şeklinde de değiştirilebilir.
         Global değişkenler `@@` ile tanımlanır, ör: @@FETCH_STATUS = 0.
-        `IF`, T-SQL'e özeldir, normal sorgularda doğrudan kullanılamaz.
-        `CASE-WHEN` blokları SELECT içerisinde kullanılır ve birden fazla durumu kontrol edebilir.
-        `IIF`, bu şart karşılanıyorsa şunu yap karşılanmıyorsa şunu yap olarak çalışır.
-        `VIEW`, karmaşık bir SQL sorgusunun tek bir tabloymuş gibi çekilmesini sağlar.
-        `UDF`, kullanıcı tarafından tanımlanmış fonksiyonlardır.
-        `SP`, karmaşık SQL cümlelerini saklar ve çağırmamızı sağlar.
-        `VIEW`lar içerisinde sadece `SELECT` yapılabilir, SP'lerde ise SELECT-INSERT-UDPATE-DELETE-WHILE her şeyi yapabiliriz.
-        `TRIGGER`lar eventler gibilerdir, herhangi bir INSERT-UPDATE-DELETE gerçekleştiğinde otomatik olarak gerçekleşirler.
-        `INDEX`, bizim belirlediğimiz sütunlara göre sıralı şekilde saklanmasını sağlayan ve sorgu hızı arttıran nesnedir.
         `VIEW`'lar bir veya birden fazla tablodan SELECT sorgusu çekerek oluşan veri setinin tablo gibi kullanılmasıdır.
             Diskte yer kaplamazlar çünkü arkada veriyi tutmazlar sadece sorguyu tutarlar.
             Verinin bir kopyasını da oluşturmazlar, tüm veriyi çekmek yerine ilgili veriyi çekip hızlı çalışır.
@@ -320,7 +307,7 @@
         Temp Table'lar, #TabloAdı şeklinde oluşturulur, yine globalse ##Tabloadı, karmaşık sorguları için yazılır.
         PIVOT sütunları satıra, satırları sütuna çevirip özet tablo oluşturmayı sağlar, ör kullanım: PIVOT( ... ) AS PVT.
 
-    30- OSI modeli nedir ve katmanlarında neler bulunur?
+    30- `OSI` Referans Modeli:
         Open Systems Interconnection referans modeli, bilgisayar ağlarındaki iletişimi yedi farklı katmana bölen standarttır.
         Katmanları şunlardır:
             1- Physical Layer, 
@@ -330,7 +317,7 @@
             5- Application Layer, 
             6- Sunum Katmanı,
 
-    31- CSS nedir?
+    31- Yazılım Geliştirmede `CSS`:
         Cascading Style Sheets, web sayfalarının görünümünü ve düzenini kontrol etmek için kullanılan bir stil dilidir.
         `text-align`, bir öğenin içindeki metnin yatay hizalamasını belirler, ör: "left", "center", "right", "justify".
         `background-color`, bir öğenin arka plan rengini belirler, ör: body { background-color: brown }.
@@ -354,11 +341,11 @@
         `box-shadow`, bir öğenin kutu modeline göre gölgesini eklemeye yarar, ör: box-shadow: 5px 5px 5px grey;.
         
        
-    32- Bash nedir?
+    32- İşletim Sistemlerinde `Bash` dili:
     
-    33- Binary Search Tree nedir?   
+    33- `Binary Search Tree` Veri Yapısı:   
     
-    34- Cyclomatic Complexity nedir?
+    34- `Cyclomatic Complexity` ve `Birim Testleri`:
         Anlaşılması zor mu değil mi onu ölçmeye yarar, VS'da `Analyze` kısmına tıklayarak kodun analizini çalıştırabiliriz.
         Visutin programı graf oluşturmaya yarayabilir, CFG oluşturmaya, yine VS'da calculate code metrics ile CC'ye bakarız.
         Normal CC seviyesi birim olarak 10'un aşağısında olmalıdır.
@@ -366,7 +353,7 @@
         Bypass Testing, orphan page testi yapılır, hyperlink'lerin fare işaretçi değişimine bakılabilmesi lazım.
         Responsiveness testing ile bir sürü aygıt için grafik testi yapılabilir.
         
-    35- Programlamada işaretçi, adres ve bitwise operatörleri nelerdir, nasıl çalışırlar?
+    35- Programlamada `Adres`, `İşaretçi`, `Referans` ve `Bitwise Operator` kavramları:
         Fiziksel Adres,
         Sanal Adres,
         `*`
@@ -374,9 +361,6 @@
         `&`, bitwise OR işlemi,
         `<<`,
         `>>`, 
-
-
-
 
 
 # Sözel Mülakat Soruları:
