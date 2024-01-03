@@ -1,9 +1,9 @@
 # Egecan Çelik Evgin
 
 
-## Toplam Çalışma Saati:               385 Saat
+## Toplam Çalışma Saati:               386 Saat
 
-## Uzmanlık Seviyesine Giden Yol:      %3.85
+## Uzmanlık Seviyesine Giden Yol:      %3.86
  
 
 ## Nizami Çalışma Kaydı:
@@ -93,7 +93,9 @@
     26 Aralık 2023 Salı:       2 saat 
     27 Aralık 2023 Çarşamba:   3 saat
     28 Aralık 2023 Perşembe:   3 saat 
-    29 Aralık 2023 Cuma:       3 saat 
+    29 Aralık 2023 Cuma:       3 saat
+    2 Ocak 2023 Salı:          3 saat
+    3 Ocak 2023 Çarşamba:      4 saat
 
 ## Beceriler:
     Yazılım Geliştirme
