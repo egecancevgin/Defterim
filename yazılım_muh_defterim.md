@@ -1,9 +1,9 @@
 # Egecan Çelik Evgin
 
 
-## Toplam Çalışma Saati:               384 Saat
+## Toplam Çalışma Saati:               385 Saat
 
-## Uzmanlık Seviyesine Giden Yol:      %3.84
+## Uzmanlık Seviyesine Giden Yol:      %3.85
  
 
 ## Nizami Çalışma Kaydı:
@@ -274,7 +274,7 @@
  - Bakım: Yazılım kullanıldıkça oluşan hatalar düzeltilir, performans izleme ve müşteri destek hizmetleri sağlanır.
 
 <br></br>
-## 2- Nesne tabanlı programlamada `Arayüzler`:
+## 2- Nesne Tabanlı Programlamada `Arayüzler`:
 
    - Arayüzler bir sınıfa belirli işlevleri kazandırmak için kullanılır, birden fazla arayüzden miras alınabilir.
    
@@ -293,7 +293,7 @@
    ```
 
 <br></br>
-## 3- İşletim sistemlerinde `TCP` ve `UDP` kavramları:
+## 3- İşletim Sistemlerinde `TCP` ve `UDP` Kavramları:
 
    - Transmission Control ve User Datagram Protocol, bilgisayar ağlarında veri iletişimini sağlayan iletişim protokolüdür.
 
@@ -310,7 +310,7 @@
    - UDP, çevrimiçi oyunlar, video konferansları, internet üzerinden sesli aramalar gibi alanlarda kullanılır. 
 
 <br></br>
-## 4- Nesne tabanlı programlamada `SOLID` prensipleri:
+## 4- Nesne Tabanlı Programlamada `SOLID` Prensipleri:
 
    - SOLID prensipleri, nesne tabanlı programlamada yazılım tasarımını daha sürdürülebilir ve bakımı kolay hale getirir.
 
@@ -325,7 +325,7 @@
    - Dependency Inversion, yüksek seviyeli modüllerin, düşük seviyeli modüllere bağımlılıklarının olmaması gerektiğini söyler.
 
 <br></br>
-## 5- Nesne tabanlı programlamada `Soyut Sınıflar`:
+## 5- Nesne Tabanlı Programlamada `Soyut Sınıflar`:
    
    - Soyut sınıflar, diğer sınıfların temelini oluşturan sınıflardır ve somut nesneler oluşturmak için kullanılamaz.
    
