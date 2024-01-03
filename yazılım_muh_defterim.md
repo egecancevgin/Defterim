@@ -287,6 +287,8 @@
         `input[type="..."]`, HTML belgesindeki bir girişi hedef alır, bu örnek olarak `submit-radio-text-checkbox` olabilir.
         `blur()` fonksiyonu öğeyi bulanıklaştırırken, `filter` özelliği efektler uygular, ör: filter: blur(3px);
         `transform` özelliği elemanın yerleşimini değiştirir, `rotate()` ise döndürür, ör: transform: rotate(-0.6deg);
+        `*`, global selector'dur, `box-sizing` özelliği de iç içe geçmiş kutuları ayarlar, ör: box-sizing: border-box;
+        
         
        
     32- İşletim Sistemlerinde `Bash` dili:
