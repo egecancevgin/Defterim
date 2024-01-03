@@ -288,6 +288,7 @@
         `blur()` fonksiyonu öğeyi bulanıklaştırırken, `filter` özelliği efektler uygular, ör: filter: blur(3px);
         `transform` özelliği elemanın yerleşimini değiştirir, `rotate()` ise döndürür, ör: transform: rotate(-0.6deg);
         `*`, global selector'dur, `box-sizing` özelliği de iç içe geçmiş kutuları ayarlar, ör: box-sizing: border-box;
+        `text-transform` özelliği metindeki harf durumunu ayarlar, ör: text-transform: uppercase;
         
         
        
