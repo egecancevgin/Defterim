@@ -429,7 +429,7 @@
    }
    ```
 <br></br>    
-## 10- Nesne tabanlı programlamada `Polimorfizm` kavramı:
+## 10- Nesne Tabanlı Programlamada `Polimorfizm` Kavramı:
    - Polimorfizm, farklı nesnelerin aynı şablonu kullanarak farklı şekillerde davranabilmesidir.
    - Derleme zamanı ve koşu zamanı polimorfizmi olarak ikiye ayrılır.
    - Derleme zamanı polimorfizmi aynı zamanda statik polimorfizm olarak da ifade edilir, overloading işlemidir.
@@ -446,7 +446,7 @@
    ```
 
 <br></br>    
-## 11- SQL dilinde `JOIN` kavramı:
+## 11- SQL Dilinde `JOIN` Kavramı:
  
    - `JOIN`, verileri birden fazla tablodan çekmeye ve tablolar arasındaki ilişkileri kullanarak birleştirmeye yarar.
    - `INNER JOIN`, belirtilen iki tabloda eşleşen satırları getirir, yalnızca iki tablonun ortak satırlarını döndürür.
