@@ -229,6 +229,8 @@
         Bir ana eksen ve çapraz eksen içerir, ana eksenin dört farklı değeri vardır, ör: flex-direction: row-reverse;
         `justify-content`, bir flex konteyneri içindeki öğeleri ana eksende konumlandırır, ör: justify-content: center;
         `object-fit`, resim veya video içeriğinin nasıl boyutlandırılacağını belirler, ör: `fill-contain-cover-none`.
+        `gap´, bir grup öğe arasındaki mesela grid veya flex içerisindeki, row-col boşluğu belirler, ör: gap: 16px;
+        
         
        
     32- İşletim Sistemlerinde `Bash` dili:
