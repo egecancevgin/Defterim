@@ -302,6 +302,7 @@
         `opacity`, transparanlık ve opaklık ayarlamaya yarar, ör: opacity: 0.5;, `rgba` ise `rgb()`'ye `alpha`'nın eklenmesidir.
              Ör: display: block; dersek bu öğe kendini tek satırda blok olarak tutar.
         `box-shadow`, bir öğenin kutu modeline göre gölgesini eklemeye yarar, ör: box-shadow: 5px 5px 5px grey;.
+        `input[type="..."]`, HTML belgesindeki bir girişi hedef alır, bu örnek olarak `submit-radio-text-checkbox` olabilir.
         
        
     32- İşletim Sistemlerinde `Bash` dili:
