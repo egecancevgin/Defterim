@@ -104,37 +104,12 @@
     İşletim Sistemleri
     Veri Tabanı Sistemleri
     Yazılım Kalite Güvencesi
-    Makine Öğrenmesi
+    Makine Öğrenimi
     DevOps
     Çevik Yöntemler
     Bulut Bilişimi
     Dağıtık Sistemler
     Paralel Hesaplama
-
-## Özgeçmiş İçin:
-    Full Stack Development
-    JavaScript
-    ...
-    ...
-    ...
-
-## Yazılım Mühendisliği Kesin Toollar:
-    JavaScript
-    HTML
-    CSS
-    Bootstrap
-    SASS
-    jQuery
-    React
-    Node.js
-    Express.js
-    Redux.js
-    Angular
-    MongoDB
-    T-SQL
-    Git
-    Docker
-    Bash 
 
 ## Mevcut Okul Derslerimin Soruları (Sonra ele alınacak):
     1- Yazılım Testi nedir, kaça ayrılır? 
