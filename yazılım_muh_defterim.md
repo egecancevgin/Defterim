@@ -227,6 +227,8 @@
         `text-transform` özelliği metindeki harf durumunu ayarlar, ör: text-transform: uppercase;
         `Flexbox`, öğelerin bir konteyner içinde nasıl hizalamalandığını ve aralıklarını belirler, ör: display: flex;
         Bir ana eksen ve çapraz eksen içerir, ana eksenin dört farklı değeri vardır, ör: flex-direction: row-reverse;
+        `justify-content`, bir flex konteyneri içindeki öğeleri ana eksende konumlandırır, ör: justify-content: center;
+        `object-fit`, resim veya video içeriğinin nasıl boyutlandırılacağını belirler, ör: `fill-contain-cover-none`.
         
        
     32- İşletim Sistemlerinde `Bash` dili:
