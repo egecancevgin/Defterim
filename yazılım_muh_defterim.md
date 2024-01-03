@@ -109,28 +109,8 @@
     Çevik Yöntemler
     Bulut Bilişimi
     Dağıtık Sistemler
-
-## Teknik Araçlar:
-    C#, ASP.NET Core MVC, Microsoft SQL Server, HTML, CSS, XML, JavaScript, AJAX, jQuery, React, Xunit, Postman, WPF, WCF,
-    UML, LINQ, XAML, Angular, Git, Docker, Jenkins, Azure DevOps, TFS/JIRA, JSON, SoapUI, T-SQL, Python, CUDA,
-    MongoDB, Redis, PostgreSQL, ELK Stack, Bash, Apache Kafka
-
-## Eğer TT'ye gireresem: 
-    Programming with Python, Golang and C++.
-    Object Oriented Design and documentation using UML.
-    Database Management with PostgreSQL, Apache Cassandra and MongoDB.
-    Microservice Management and Monitoring using Apache Kafka, Redis and Jaeger.
-    Software and API testing with Selenium and Postman.
-    Parallel Computing with C++ and CUDA.
-    Machine Learning applications using Scikit-learn, Tensorflow, Pytorch and Hugging Face.
-    CI/CD pipeline organization using Jenkins, Gitlab CI/CD.
-    Container orchestration using Docker, Kubernetes, Openshift.
-    Infrastructure Virtualization using vSphere and Ansible.
-    Linux System Administration on Pardus, Red Hat using Bash and Csh.
-    Log Management and monitoring using Elastic, Kibana and Logstash.
-    Version Controlling and GitOps using Git and ArgoCD.
-    MLOps applications using Mlflow and Roboflow.
-
+    Paralel Hesaplama
+    
 ## Yazılım Mühendisliği Kesin Toollar:
     JavaScript
     HTML
@@ -148,23 +128,6 @@
     Git
     Docker
     Bash 
-
-## TT Full Stack Developer Toolları:
-    Golang, JavaScript, Gin, HTML, CSS, jQuery, Node.js, React, Angular, NestJS, MongoDB, Git, PostgreSQL, Docker, Bash 
-
-## Hedef Projeler:
-    E-Ticaret Elektronik Ürünler Öneri Sistemi
-    Banka İşlemleri Sahtekarlık Tespiti
-    Deployment Anomali Tespiti 
-    ATM Ekranı Yazılımı
-    TCP Sohbet Odası
-    Dil Tespiti Deployment Projesi
-    Yazılım Tasarım Desenleri İmplementasyonları
-    Algoritmalar ve Veri Yapıları İmplementasyonları
-    Profesyonel Full Stack Web Sitesi x2 (Django ve .NET Core MVC)
-    Kendi Basit Portfolyo Web Sitem
-    CUDA ile Multiprocessing
-
 
 ## Mevcut Okul Derslerimin Soruları (Sonra ele alınacak):
     1- Yazılım Testi nedir, kaça ayrılır? 
@@ -363,7 +326,7 @@
         `>>`, 
 
 
-# Sözel Mülakat Soruları:
+# Yazılım Mühendisliği Temel Konular:
 <br></br>
 
 ## 1- `Yazılım Geliştirme Yaşam Döngüsü`:
