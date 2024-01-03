@@ -289,7 +289,7 @@
         `transform` özelliği elemanın yerleşimini değiştirir, `rotate()` ise döndürür, ör: transform: rotate(-0.6deg);
         `*`, global selector'dur, `box-sizing` özelliği de iç içe geçmiş kutuları ayarlar, ör: box-sizing: border-box;
         `text-transform` özelliği metindeki harf durumunu ayarlar, ör: text-transform: uppercase;
-        
+        `Flexbox`, öğelerin bir konteyner içinde nasıl hizalamalandığını ve aralıklarını belirler.        
         
        
     32- İşletim Sistemlerinde `Bash` dili:
