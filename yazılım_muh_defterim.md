@@ -110,7 +110,14 @@
     Bulut Bilişimi
     Dağıtık Sistemler
     Paralel Hesaplama
-    
+
+## Özgeçmiş İçin:
+    Full Stack Development
+    JavaScript
+    Linux
+    Machine Learning
+    PostgreSQL
+
 ## Yazılım Mühendisliği Kesin Toollar:
     JavaScript
     HTML
