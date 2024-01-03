@@ -109,72 +109,8 @@
     Çevik Yöntemler
     Bulut Bilişimi
     Dağıtık Sistemler
-    Paralel Hesaplama
 
 ## Mevcut Okul Derslerimin Soruları (Sonra ele alınacak):
-    1- Yazılım Testi nedir, kaça ayrılır? 
-
-    2- Büyük Dil Modelleri nedir, popüler örnekleri nelerdir?
-        Generative Pretrained Transformers, Bidirectional Encoder Representations from Transformers, LLama, Bard, Alpaca 
-    
-    3- Generative AI nedir, hangi modellerden oluşur?
-        Yapay zekanın özgün içerikler oluşturduğu tekniklerdir, GPT, BERT, GAN.
-    
-    4- Difüzyon Modelleri nelerdir, nasıl çalışır?
-
-    5- Autoencoder yapısı nedir?
-        Encoder, girdi verisini daha küçük boyutlu, anlamlı ve sıkıştırılmış forma sokar.
-        Bottleneck, 
-        Decoder, 
-
-    6- Edge Sistemleri nelerdir?
-        Merkezi sistem kadar kapasitesi olmayan, akıllı saat, tarzı IoT sistemidir, LLM'ler daha bu sistemlerde çalışamaz.
-
-    7- Agent nedir?
-        Yapay zeka botudur, akıllı karar verici birimdir, otonom agent ise otomatik karar verebilen
-
-    8- Vector Database nedir?
-        LLM'lerde kullanılan, vektörleri depolamak için kullanılan bir veritabanıdır, ör: Qdrant, Milvus, LlamaIndex, Thistle.
-
-    9- Modelhub nedir?
-
-    10- Multimodal GenAI nedir?
-        Multimodal input, hem text hem image hem tabular data olandır.
-
-    11- LangOps nedir?
-
-    12- Retrieval Augmented Generation nedir?
-
-    13- Transfer Learning nedir?
-        Eğitilmiş bir modeli başka verilerle fine-tuning etmektir.
-
-    14- Foundation models nedir?
-
-    15- Sentetik veri nedir, nasıl üretilir?
-
-    16- NER nedir?
-        Bir cümledeki kelimelerin isim mi şehir mi yemek mi anlayalım diye yapılır.
-
-    17- Fasttext nedir?
-        Hem kütüphane, hem de embedding'dir.
-    
-    18- Docker yapısı VM farkı nedir?
-        Hypervisor yerine OS ve Container Engine olur, container'lar ile çalışır yani OS'ten bağımsızdır.
-        
-    20- Docker Image nedir?
-        Container oluşturabildiğimiz şablon tar dosyası, uygulama ve bağımlılıklarını taşınabilir bir paket olarak taşır.
-
-    21- Scalability nasıl olur mikroservislerle, Docker ile?
-        Container sayını arttıracaksın, yük azalınca azaltacaksın bir güzel mikroservis-container etkileşimi ile çalışan sistemler.
-
-    22- Docker container'ı nasıl image'a çeviririz?
-        Docker commit ile yapılır
-
-    23- Yazılım Testi temel kavramları nelerdir, coverage, td, tp,   falan?
-
-    24- Word2Vec nasıl çalışır?
-        Saymaktan çok tahmin etmeye dayalıdır, Ayıkla pirincin (taşını) kardeşim, c1-c2-c3'ü verip, ljk reg ile hedef bulunur.
-
     25- 1-N 2NF'tir, tabloların PK'sının olması 1NF, ... 3NF'tir.
         Database testing, 3'e ayrılır, Structural-Functional-Non-Functional testing.
         Unit test bir structural testtir, functional test ise black box testtir.
