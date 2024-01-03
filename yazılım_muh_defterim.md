@@ -311,6 +311,7 @@
         `box-shadow`, bir öğenin kutu modeline göre gölgesini eklemeye yarar, ör: box-shadow: 5px 5px 5px grey;.
         `input[type="..."]`, HTML belgesindeki bir girişi hedef alır, bu örnek olarak `submit-radio-text-checkbox` olabilir.
         `blur()` fonksiyonu öğeyi bulanıklaştırırken, `filter` özelliği efektler uygular, ör: filter: blur(3px);
+        `transform` özelliği elemanın yerleşimini değiştirir, `rotate()` ise döndürür, ör: transform: rotate(-0.6deg);
         
        
     32- İşletim Sistemlerinde `Bash` dili:
